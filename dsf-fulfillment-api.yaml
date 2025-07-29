@@ -1,0 +1,534 @@
+openapi: 3.0.3
+info:
+  title: 1C Fulfillment API
+  description: API для интеграции с системой складского учета 1C Fulfillment
+  version: 1.0.0
+  contact:
+    name: API Support
+    email: support@1c-example.com
+
+servers:
+  - url: https://api.1c-example.com/v1
+    description: Production server
+  - url: https://staging-api.1c-example.com/v1
+    description: Staging server
+
+paths:
+  /products:
+    post:
+      summary: Создание нового товара
+      description: |
+        Создание или обновление товара в справочнике номенклатуры.
+        
+        **Логика работы:**
+        - Код номенклатуры должен содержать первые 4 буквы наименования клиента
+        - При повторной отправке с тем же наименованием товара, штрих-кодом и артикулом данные обновляются
+        - Создаются записи в справочниках Номенклатуры, Упаковки Номенклатуры и регистре Штрихкоды номенклатуры
+        - В справочнике создается отдельная запись "ШТУКА" с коэффициентом 1
+        - В справочнике создается отдельная запись "КОРОБ" с единицей измерения из поля unit
+        - Объем рассчитывается автоматически при заполнении габаритов
+      tags: [Products]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProductCreate'
+      responses:
+        '201':
+          description: Товар успешно создан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProductResponse'
+        '400':
+          description: Ошибка валидации данных
+        '409':
+          description: Конфликт при создании товара
+
+  /counterparties:
+    post:
+      summary: Создание нового контрагента
+      description: |
+        Создание или обновление контрагента (клиента-поставщика).
+        
+        **Логика работы:**
+        - При первой отправке создается контрагент с наименованием клиента и статусом "организация поклажедатель"
+        - Код контрагента генерируется автоматически
+        - Клиент может завести одного контрагента со всеми тремя типами сразу
+        - При повторной отправке с тем же наименованием клиента и контрагента данные обновляются
+      tags: [Counterparties]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CounterpartyCreate'
+      responses:
+        '201':
+          description: Контрагент успешно создан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CounterpartyResponse'
+        '400':
+          description: Ошибка валидации данных
+
+  /incoming-orders:
+    post:
+      summary: Создание заказа на прием
+      description: |
+        Создание плана поступления товара.
+        
+        **Логика работы:**
+        - При отсутствии уникального идентификатора он создается автоматически
+        - При отсутствии контрагента документ отклоняется с уведомлением о необходимости заполнить шаблон контрагента
+        - Поле "Организация (поклажедатель)" заполняется автоматически
+        - При отсутствии времени поступления автоматически устанавливается 23:55:00
+        - При ведении учета по артикулам номенклатура определяется по артикулу
+        - При отсутствии номенклатуры документ отклоняется с уведомлением о необходимости заполнить шаблон товара
+        - Упаковка номенклатуры по умолчанию устанавливается как "ШТУКА"
+        - Данные о транспорте указываются в комментарии через точку с запятой
+        - Повторное обновление возможно до перехода в статусы "принят" и "завершен"
+      tags: [Orders]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/IncomingOrderCreate'
+      responses:
+        '201':
+          description: Заказ на прием успешно создан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderResponse'
+        '400':
+          description: Ошибка валидации данных
+        '404':
+          description: Контрагент или товар не найден
+
+  /outgoing-orders:
+    post:
+      summary: Создание заказа на отгрузку
+      description: |
+        Создание плана отгрузки товара.
+        
+        **Логика работы:**
+        - При отсутствии уникального идентификатора он создается автоматически
+        - При отсутствии контрагента документ отклоняется с уведомлением о необходимости заполнить шаблон контрагента
+        - При первом обращении создается запись в справочнике адресов доставки
+        - Поле "Организация (поклажедатель)" заполняется автоматически
+        - При отсутствии времени доставки автоматически устанавливается 23:55:00
+        - При ведении учета по артикулам номенклатура определяется по артикулу
+        - При отсутствии номенклатуры документ отклоняется с уведомлением о необходимости заполнить шаблон товара
+        - Упаковка номенклатуры по умолчанию устанавливается как "ШТУКА"
+        - Данные о транспорте указываются в комментарии через точку с запятой
+        - Повторное обновление возможно до перехода в статусы "готов к отгрузке" и "отгружен"
+      tags: [Orders]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OutgoingOrderCreate'
+      responses:
+        '201':
+          description: Заказ на отгрузку успешно создан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderResponse'
+        '400':
+          description: Ошибка валидации данных
+        '404':
+          description: Контрагент, адрес или товар не найден
+
+  /return-orders:
+    post:
+      summary: Создание заказа на прием возврата
+      description: |
+        Создание плана поступления возврата товара.
+        
+        **Логика работы:**
+        - При отсутствии уникального идентификатора он создается автоматически
+        - На основе документа основания подтягиваются поля "План отгрузки" и "Заказ отгрузки"
+        - При отсутствии контрагента документ отклоняется с уведомлением о необходимости заполнить шаблон контрагента
+        - Поле "Организация (поклажедатель)" заполняется автоматически
+        - При отсутствии времени поступления автоматически устанавливается 23:55:00
+        - При ведении учета по артикулам номенклатура определяется по артикулу
+        - При отсутствии номенклатуры документ отклоняется с уведомлением о необходимости заполнить шаблон товара
+        - Упаковка номенклатуры по умолчанию устанавливается как "ШТУКА"
+        - Данные о транспорте указываются в комментарии через точку с запятой
+        - Повторное обновление возможно до перехода в статусы "принят" и "завершен"
+      tags: [Orders]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ReturnOrderCreate'
+      responses:
+        '201':
+          description: Заказ на прием возврата успешно создан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OrderResponse'
+        '400':
+          description: Ошибка валидации данных
+        '404':
+          description: Контрагент, товар или заказ на отгрузку не найден
+
+components:
+  schemas:
+    ProductCreate:
+      type: object
+      required:
+        - name
+        - client_name
+      properties:
+        article:
+          type: string
+          description: Артикул товара (может быть текстовым или числовым)
+          example: "PROD001"
+        name:
+          type: string
+          description: Наименование товара (заполняет поля Наименование и Полное наименование)
+          example: "Товар 1"
+        barcode:
+          type: string
+          description: Штрих-код товара (может быть текстовым или числовым)
+          example: "1234567890123"
+        unit:
+          type: string
+          description: Единица измерения (шт/кг) - создается запись "ШТУКА" с коэффициентом 1
+          example: "шт"
+        client_name:
+          type: string
+          description: Наименование клиента (обязательное поле, заполняет поле Организация поклажедатель)
+          example: "ООО Клиент"
+        brand:
+          type: string
+          description: Бренд или группа товаров (заполняет поле Торговая марка)
+          example: "Бренд А"
+        package_quantity:
+          type: integer
+          description: Вложенность в короб (штук) - заполняет поле коэффициент в справочнике упаковки
+          example: 10
+        shelf_life_days:
+          type: integer
+          description: Срок хранения (в днях) - только целые значения
+          example: 365
+        dimensions:
+          $ref: '#/components/schemas/Dimensions'
+        weight:
+          type: number
+          format: float
+          description: Вес (штуки) - заполняет поле вес в справочнике упаковки
+          example: 0.5
+        price:
+          type: number
+          format: float
+          description: Цена за ед. товара - заполняет поле Цена в справочнике номенклатуры
+          example: 100.50
+
+    Dimensions:
+      type: object
+      properties:
+        length:
+          type: number
+          format: float
+          description: Длина (штуки) - заполняет поле глубина в справочнике упаковки
+          example: 10.0
+        width:
+          type: number
+          format: float
+          description: Ширина (штуки) - заполняет поле ширина в справочнике упаковки
+          example: 5.0
+        height:
+          type: number
+          format: float
+          description: Высота (штуки) - заполняет поле высота в справочнике упаковки
+          example: 3.0
+
+    CounterpartyCreate:
+      type: object
+      required:
+        - client_name
+        - counterparty_name
+        - counterparty_type
+        - counterparty_kind
+      properties:
+        client_name:
+          type: string
+          description: Наименование клиента (обязательное поле, заполняет поле Родитель)
+          example: "ООО Клиент"
+        counterparty_name:
+          type: string
+          description: Наименование контрагента (обязательное поле, заполняет поле Наименование)
+          example: "ООО Поставщик"
+        counterparty_type:
+          type: string
+          enum: [склад, поставщик, покупатель]
+          description: Тип контрагента (обязательное поле, заполняет хитбоксы в верхней части)
+          example: "поставщик"
+        counterparty_kind:
+          type: string
+          enum: [юр лицо, физ лицо]
+          description: Вид контрагента (обязательное поле, заполняет поле Вид контрагента)
+          example: "юр лицо"
+        legal_address:
+          type: string
+          description: Юридический адрес контрагента (заполняет поле Юридический адрес)
+          example: "г. Москва, ул. Примерная, д. 1"
+        shelf_life_reception:
+          type: number
+          format: float
+          description: Запас срока годности при приёме (процент/кол-во дней) - может быть числовым или процентным
+          example: 10.0
+        shelf_life_shipment:
+          type: number
+          format: float
+          description: Запас срока годности при отгрузке (процент/кол-во дней) - может быть числовым или процентным
+          example: 5.0
+
+    IncomingOrderCreate:
+      type: object
+      required:
+        - sender_name
+        - planned_delivery_date
+        - items
+      properties:
+        order_id:
+          type: string
+          description: Уникальный идентификатор заказа в системе клиента (может быть текстовым или числовым, при отсутствии создается автоматически)
+          example: "INV-2024-001"
+        sender_name:
+          type: string
+          description: Отправитель заказа (обязательное поле, заполняет поля Контрагент и Организация)
+          example: "ООО Поставщик"
+        planned_delivery_date:
+          type: string
+          format: date-time
+          description: Плановая дата и время поставки (обязательное поле, при отсутствии времени устанавливается 23:55:00)
+          example: "2024-01-15T10:00:00Z"
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderItem'
+        vehicle_number:
+          type: string
+          description: Номер транспортного средства (указывается в комментарии)
+          example: "А123БВ77"
+        driver_name:
+          type: string
+          description: ФИО Водителя (указывается в комментарии)
+          example: "Иванов Иван Иванович"
+        driver_phone:
+          type: string
+          description: Номер водителя (указывается в комментарии)
+          example: "+7(999)123-45-67"
+
+    OutgoingOrderCreate:
+      type: object
+      required:
+        - recipient_name
+        - delivery_address
+        - planned_delivery_date
+        - items
+      properties:
+        order_id:
+          type: string
+          description: Уникальный идентификатор заказа в системе клиента (может быть текстовым или числовым, при отсутствии создается автоматически)
+          example: "OUT-2024-001"
+        recipient_name:
+          type: string
+          description: Получатель заказа (обязательное поле, заполняет поля Контрагент и Организация)
+          example: "ООО Покупатель"
+        delivery_address:
+          type: string
+          description: Адрес доставки (обязательное поле, заполняет поле Наименование в справочнике адресов)
+          example: "г. Москва, ул. Доставки, д. 1"
+        delivery_address_comment:
+          type: string
+          description: Комментарий к адресу доставки (заполняет поле Полный адрес в справочнике адресов)
+          example: "Вход со двора, 3 этаж"
+        planned_delivery_date:
+          type: string
+          format: date-time
+          description: Плановая дата и время доставки (обязательное поле, при отсутствии времени устанавливается 23:55:00)
+          example: "2024-01-15T14:00:00Z"
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderItem'
+        vehicle_number:
+          type: string
+          description: Номер транспортного средства (указывается в комментарии)
+          example: "А123БВ77"
+        driver_name:
+          type: string
+          description: ФИО Водителя (указывается в комментарии)
+          example: "Иванов Иван Иванович"
+        driver_phone:
+          type: string
+          description: Номер водителя (указывается в комментарии)
+          example: "+7(999)123-45-67"
+
+    ReturnOrderCreate:
+      type: object
+      required:
+        - sender_name
+        - planned_delivery_date
+        - items
+      properties:
+        order_id:
+          type: string
+          description: Уникальный идентификатор заказа в системе клиента (может быть текстовым или числовым, при отсутствии создается автоматически)
+          example: "RET-2024-001"
+        original_order_id:
+          type: string
+          description: Уникальный идентификатор заказа на отгрузку, по которому осуществляется возврат (заполняет поле Документ основание)
+          example: "OUT-2024-001"
+        sender_name:
+          type: string
+          description: Отправитель заказа (обязательное поле, заполняет поля Контрагент и Организация)
+          example: "ООО Покупатель"
+        planned_delivery_date:
+          type: string
+          format: date-time
+          description: Плановая дата и время поставки (обязательное поле, при отсутствии времени устанавливается 23:55:00)
+          example: "2024-01-15T10:00:00Z"
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderItem'
+        vehicle_number:
+          type: string
+          description: Номер транспортного средства (указывается в комментарии)
+          example: "А123БВ77"
+        driver_name:
+          type: string
+          description: ФИО Водителя (указывается в комментарии)
+          example: "Иванов Иван Иванович"
+        driver_phone:
+          type: string
+          description: Номер водителя (указывается в комментарии)
+          example: "+7(999)123-45-67"
+
+    OrderItem:
+      type: object
+      required:
+        - article
+        - name
+        - quantity
+      properties:
+        article:
+          type: string
+          description: Артикул товара (может быть текстовым или числовым, заполняет поля Номенклатура и Объект хранения)
+          example: "PROD001"
+        name:
+          type: string
+          description: Наименование товара (заполняет поля Номенклатура и Объект хранения)
+          example: "Товар 1"
+        quantity:
+          type: integer
+          description: Количество товара (в штуках) - заполняет поле Количество упаковок
+          example: 100
+
+    ProductResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Уникальный идентификатор товара
+          example: "prod_12345"
+        article:
+          type: string
+          description: Артикул товара
+        name:
+          type: string
+          description: Наименование товара
+        client_name:
+          type: string
+          description: Наименование клиента
+        created_at:
+          type: string
+          format: date-time
+          description: Дата создания
+        updated_at:
+          type: string
+          format: date-time
+          description: Дата обновления
+
+    CounterpartyResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Уникальный идентификатор контрагента
+          example: "cnt_12345"
+        client_name:
+          type: string
+          description: Наименование клиента
+        counterparty_name:
+          type: string
+          description: Наименование контрагента
+        counterparty_type:
+          type: string
+          description: Тип контрагента
+        counterparty_kind:
+          type: string
+          description: Вид контрагента
+        created_at:
+          type: string
+          format: date-time
+          description: Дата создания
+        updated_at:
+          type: string
+          format: date-time
+          description: Дата обновления
+
+    OrderResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Уникальный идентификатор заказа
+          example: "ord_12345"
+        order_id:
+          type: string
+          description: Идентификатор заказа в системе клиента
+        status:
+          type: string
+          enum: [created, processing, completed, cancelled, ready_for_shipment, shipped, received, finished]
+          description: Статус заказа
+          example: "created"
+        created_at:
+          type: string
+          format: date-time
+          description: Дата создания
+        updated_at:
+          type: string
+          format: date-time
+          description: Дата обновления
+
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+      description: API ключ для аутентификации
+
+security:
+  - ApiKeyAuth: []
+
+tags:
+  - name: Products
+    description: Операции с товарами
+  - name: Counterparties
+    description: Операции с контрагентами
+  - name: Orders
+    description: Операции с заказами 
