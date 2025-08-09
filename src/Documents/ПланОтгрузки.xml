@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="68bd4927-12a8-4d0d-a210-90f54a82d333">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПланОтгрузки" category="Object">
+				<xr:TypeId>3630016c-1c8b-4218-a1a9-7406b301ce6f</xr:TypeId>
+				<xr:ValueId>d6ac31e3-e047-4884-aed8-48ae8d0b9e92</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПланОтгрузки" category="Ref">
+				<xr:TypeId>8ece209c-bfc8-48ee-aafd-8573d2320c74</xr:TypeId>
+				<xr:ValueId>1897c50c-f68f-4bd4-b79f-978d82e1bccf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПланОтгрузки" category="Selection">
+				<xr:TypeId>df2da166-d588-46b3-a08e-8e3b93373f8f</xr:TypeId>
+				<xr:ValueId>9752a7a6-599b-428a-9a65-6673792c8775</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПланОтгрузки" category="List">
+				<xr:TypeId>629cad19-5011-4b28-951e-5c1196803e40</xr:TypeId>
+				<xr:ValueId>b2502bfc-1c29-4bea-9290-dd49b3d8a2a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПланОтгрузки" category="Manager">
+				<xr:TypeId>980c783b-d8e6-4edf-b41b-f5f0cae1e22b</xr:TypeId>
+				<xr:ValueId>ee5a22b4-0385-4ac6-9de1-9bca4ebc9279</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПланОтгрузки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5815c708-9a33-41aa-a248-376178146280</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

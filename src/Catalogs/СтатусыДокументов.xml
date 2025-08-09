@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="85fdc0bd-7506-4833-b300-c848ffb384f2">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатусыДокументов" category="Object">
+				<xr:TypeId>0ef9c027-fe74-49c2-a2b8-4f59e6ba8a87</xr:TypeId>
+				<xr:ValueId>79dd15d9-b307-419e-aa79-513f83d33577</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатусыДокументов" category="Ref">
+				<xr:TypeId>555fc83d-12ed-4aa2-b821-de4b7719fb16</xr:TypeId>
+				<xr:ValueId>4bd3dc90-2ded-44ce-9152-fb73225d0f66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатусыДокументов" category="Selection">
+				<xr:TypeId>44bf41d3-a4b7-4448-9dff-e14eccb0c471</xr:TypeId>
+				<xr:ValueId>838c650d-e108-4eb2-8de9-f8edfb707b2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатусыДокументов" category="List">
+				<xr:TypeId>142049f2-f95c-4cbb-a1c2-6e65888025a6</xr:TypeId>
+				<xr:ValueId>901e47a3-0378-4803-a00f-9418b4122d4f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатусыДокументов" category="Manager">
+				<xr:TypeId>addbda02-ac74-4557-8aea-73a1a70888de</xr:TypeId>
+				<xr:ValueId>c457ab25-d6cc-43c8-8d69-fcf68f3f1d99</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыДокументов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a5972377-f1ca-4576-b756-cdc652607d2b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

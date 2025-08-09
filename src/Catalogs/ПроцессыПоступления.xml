@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="66bb95f2-9e68-4bc0-90ac-f19facf5b5a3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПроцессыПоступления" category="Object">
+				<xr:TypeId>e2a44d7b-d888-4396-8929-e77629578252</xr:TypeId>
+				<xr:ValueId>bf82af51-d2ac-4f0f-8e8c-ae751dc89f7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПроцессыПоступления" category="Ref">
+				<xr:TypeId>d85afa3f-1dea-4dbb-a353-a497d7e30908</xr:TypeId>
+				<xr:ValueId>d4ad203a-fe66-42c9-874e-d58a67095efd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПроцессыПоступления" category="Selection">
+				<xr:TypeId>2d83c212-d9e4-4e8d-a47e-daadee94c2a3</xr:TypeId>
+				<xr:ValueId>b970b89d-a4c6-4d4b-80cf-620326ce44e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПроцессыПоступления" category="List">
+				<xr:TypeId>84bcb548-3daf-4b58-9f21-281de2a5abb0</xr:TypeId>
+				<xr:ValueId>12262e5d-d224-4868-b250-f3c01ba874bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПроцессыПоступления" category="Manager">
+				<xr:TypeId>15c1487e-0dd5-483e-89a9-cd2b97f7fcb3</xr:TypeId>
+				<xr:ValueId>6a203210-b892-4744-8946-6c80a681a8ba</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПроцессыПоступления</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f7c52d13-02f0-483a-8ac6-2d9037dc492d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

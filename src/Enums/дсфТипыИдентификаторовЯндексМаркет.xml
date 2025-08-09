@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="aae0cded-f3af-46ac-86b0-ef60057c89c3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.дсфТипыИдентификаторовЯндексМаркет" category="Ref">
+				<xr:TypeId>a909893f-9a14-480d-9971-5ca998ad022d</xr:TypeId>
+				<xr:ValueId>04f2fad5-749e-4af7-8c38-6c1d3cae1cf4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.дсфТипыИдентификаторовЯндексМаркет" category="Manager">
+				<xr:TypeId>255377d1-d0c3-4265-af8a-49e75a592c28</xr:TypeId>
+				<xr:ValueId>f4d51f52-0d99-4455-9b4a-c069e23a5fd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.дсфТипыИдентификаторовЯндексМаркет" category="List">
+				<xr:TypeId>8281dca1-5caa-4fb9-b846-570f95625420</xr:TypeId>
+				<xr:ValueId>6f9a1a56-39b1-4db5-96f1-99dc7d561e38</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>дсфТипыИдентификаторовЯндексМаркет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы идентификаторов [DSF, YandexMarket]</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f939beca-fb7e-4cc7-bd62-a491059d49eb">
+				<Properties>
+					<Name>ARTICLE</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ARTICLE</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор товара в системе партнера</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1c66d276-c7c8-4507-9d70-b6152d7ceeb2">
+				<Properties>
+					<Name>ASSORTMENT_ARTICLE</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ASSORTMENT_ ARTICLE</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор ассортиментного товара</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ff8f5e89-b525-469e-bf06-b3e9393f0a7b">
+				<Properties>
+					<Name>BOX_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>BOX_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор коробки</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e7bd0344-0f07-4cf3-a19f-ac543775e629">
+				<Properties>
+					<Name>CIS</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CIS</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Контрольный идентификационный знак из ЦРПТ</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="33f59edc-0688-437c-98f8-588029926f72">
+				<Properties>
+					<Name>IMEI</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>IMEI</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Международный идентификатор мобильного оборудования</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0d030be6-16ba-4dca-a7ae-4d473ea5d799">
+				<Properties>
+					<Name>ORDER_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ORDER_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор заказа</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="038f65f3-6f41-4ea3-93f8-dbd22754fca3">
+				<Properties>
+					<Name>ORDER_RETURN_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ORDER_RETURN_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор возврата</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3a497768-a02d-4493-a4d3-91e3016ad3a2">
+				<Properties>
+					<Name>ORDER_RETURN_REASON_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ORDER_RETURN_REASON_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор причины возврата</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="02492cbb-8cee-4eef-ba68-3a87bc0fd1cd">
+				<Properties>
+					<Name>PALLET_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>PALLET_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор палеты</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5ef4df35-9073-49c8-ae18-c5f9dea20a41">
+				<Properties>
+					<Name>SERIAL_NUMBER</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>SERIAL_NUMBER</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7695a5e1-b049-4575-8d45-dbb62f349c3c">
+				<Properties>
+					<Name>STAMP_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>STAMP_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор пломбы лота</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8751c540-6787-4e69-aee3-63105549dd1a">
+				<Properties>
+					<Name>VENDOR_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>VENDOR_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор магазина в Маркете</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7e9d2848-479e-49c8-ad48-8c4612337354">
+				<Properties>
+					<Name>VIRTUAL_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>VIRTUAL_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор неопознанного товара, присвоенный Маркетом</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="64dcd16b-333b-4478-a801-7b32e2f29fed">
+				<Properties>
+					<Name>CONSIGNMENT_ID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>CONSIGNMENT_ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор партии товара</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ea9d4134-4a9a-457a-accd-8be26fbc3444">
+				<Properties>
+					<Name>UIT</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>UIT</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Идентификатор товара в системе склада Маркета</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

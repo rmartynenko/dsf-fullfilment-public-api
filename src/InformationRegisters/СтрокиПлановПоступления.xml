@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="d1f710b4-b7f6-4d2c-b1da-dd1f51886e2c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтрокиПлановПоступления" category="Record">
+				<xr:TypeId>b4f194e0-642b-49c9-8a64-2385a2b866ee</xr:TypeId>
+				<xr:ValueId>8a241a12-456d-46bd-bd97-2e473fe18ee0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтрокиПлановПоступления" category="Manager">
+				<xr:TypeId>60f133f7-1c88-4891-9a52-060c2bcd97ec</xr:TypeId>
+				<xr:ValueId>c19b4232-c00e-4e37-a0f5-7bca684a4b6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтрокиПлановПоступления" category="Selection">
+				<xr:TypeId>93a16c89-9b41-4032-891f-836bb99d91a9</xr:TypeId>
+				<xr:ValueId>be6dd71d-5b52-4cb2-a14d-3006ab10c67d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтрокиПлановПоступления" category="List">
+				<xr:TypeId>7c0ca2bc-abaa-4271-add6-595b0bb94078</xr:TypeId>
+				<xr:ValueId>8f499f8d-2f25-4e56-86ab-c3deb616310d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтрокиПлановПоступления" category="RecordSet">
+				<xr:TypeId>b7baf4f7-7fd2-4fe0-9816-d46a84cc28ec</xr:TypeId>
+				<xr:ValueId>6a76a92b-e4a4-468c-98b0-608156a15baa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтрокиПлановПоступления" category="RecordKey">
+				<xr:TypeId>4217ed19-0034-4fb2-b349-afb7ff062dcf</xr:TypeId>
+				<xr:ValueId>b1ce429c-9196-468f-827f-7dd5d7880c43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтрокиПлановПоступления" category="RecordManager">
+				<xr:TypeId>5c28157c-3e10-4baf-b764-1ea9e21746fa</xr:TypeId>
+				<xr:ValueId>02baaceb-bb1c-4d7c-8211-f080428f684d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтрокиПлановПоступления</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2ebb55cc-1add-4b4d-a817-a2e3fe2a77ec</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

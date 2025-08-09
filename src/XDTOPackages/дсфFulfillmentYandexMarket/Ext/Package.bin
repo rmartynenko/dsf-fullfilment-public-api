@@ -1,0 +1,390 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.dsf-yandex-market.kz">
+	<property xmlns:d2p1="http://www.dsf-yandex-market.kz" name="root" type="d2p1:root"/>
+	<valueType name="type" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">putInbound</enumeration>
+		<enumeration xsi:type="xs:string">putInboundRegistry</enumeration>
+		<enumeration xsi:type="xs:string">getInbound</enumeration>
+		<enumeration xsi:type="xs:string">getInboundStatus</enumeration>
+		<enumeration xsi:type="xs:string">getInboundsStatus</enumeration>
+		<enumeration xsi:type="xs:string">getInboundStatusHistory</enumeration>
+		<enumeration xsi:type="xs:string">getInboundHistory</enumeration>
+		<enumeration xsi:type="xs:string">getInboundDocument</enumeration>
+		<enumeration xsi:type="xs:string">undefined</enumeration>
+		<enumeration xsi:type="xs:string">putReferenceItems</enumeration>
+		<enumeration xsi:type="xs:string">getStocks</enumeration>
+	</valueType>
+	<valueType name="token" base="xs:string" variety="Atomic" minLength="1" maxLength="36"/>
+	<valueType name="uniq" base="xs:string" variety="Atomic" minLength="1"/>
+	<valueType name="format" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">html</enumeration>
+		<enumeration xsi:type="xs:string">pdf</enumeration>
+		<enumeration xsi:type="xs:string">xls</enumeration>
+	</valueType>
+	<valueType name="base64Document" base="xs:base64Binary" variety="Atomic"/>
+	<valueType name="inboundType" base="xs:int" variety="Atomic">
+		<enumeration xsi:type="xs:string">0</enumeration>
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+		<enumeration>3</enumeration>
+		<enumeration>4</enumeration>
+		<enumeration>5</enumeration>
+		<enumeration>6</enumeration>
+		<enumeration>7</enumeration>
+		<enumeration xsi:type="xs:string">9</enumeration>
+		<enumeration>10</enumeration>
+		<enumeration xsi:type="xs:string">12</enumeration>
+		<enumeration>13</enumeration>
+		<enumeration>14</enumeration>
+		<enumeration xsi:type="xs:string">25</enumeration>
+	</valueType>
+	<valueType name="cargoType" base="xs:unsignedInt" variety="Atomic">
+		<enumeration xsi:type="xs:string">400</enumeration>
+	</valueType>
+	<valueType name="interval" base="xs:string" variety="Atomic"/>
+	<valueType name="comment" base="xs:string" variety="Atomic"/>
+	<valueType name="idType" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">ARTICLE</enumeration>
+		<enumeration xsi:type="xs:string">ASSORTMENT_ARTICLE</enumeration>
+		<enumeration xsi:type="xs:string">BOX_ID</enumeration>
+		<enumeration xsi:type="xs:string">CIS</enumeration>
+		<enumeration xsi:type="xs:string">IMEI</enumeration>
+		<enumeration xsi:type="xs:string">ORDER_ID</enumeration>
+		<enumeration xsi:type="xs:string">ORDER_RETURN_ID</enumeration>
+		<enumeration xsi:type="xs:string">ORDER_RETURN_REASON_ID</enumeration>
+		<enumeration xsi:type="xs:string">PALLET_ID</enumeration>
+		<enumeration xsi:type="xs:string">SERIAL_NUMBER</enumeration>
+		<enumeration xsi:type="xs:string">STAMP_ID</enumeration>
+		<enumeration xsi:type="xs:string">VENDOR_ID</enumeration>
+		<enumeration xsi:type="xs:string">VIRTUAL_ID</enumeration>
+		<enumeration xsi:type="xs:string">CONSIGNMENT_ID</enumeration>
+		<enumeration xsi:type="xs:string">UIT</enumeration>
+	</valueType>
+	<valueType name="registryType" base="xs:unsignedInt" variety="Atomic">
+		<enumeration xsi:type="xs:string">0</enumeration>
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+		<enumeration>3</enumeration>
+		<enumeration>4</enumeration>
+		<enumeration>5</enumeration>
+		<enumeration>6</enumeration>
+		<enumeration>7</enumeration>
+		<enumeration>8</enumeration>
+		<enumeration>9</enumeration>
+		<enumeration>10</enumeration>
+		<enumeration>11</enumeration>
+		<enumeration>12</enumeration>
+	</valueType>
+	<valueType name="price" base="xs:float" variety="Atomic"/>
+	<valueType name="cisHandleMode" base="xs:unsignedInt" variety="Atomic">
+		<enumeration xsi:type="xs:string">0</enumeration>
+		<enumeration xsi:type="xs:string">1</enumeration>
+		<enumeration>2</enumeration>
+	</valueType>
+	<valueType name="countType" base="xs:string" variety="Atomic">
+		<enumeration xsi:type="xs:string">ANOMALY</enumeration>
+		<enumeration xsi:type="xs:string">DEFECT</enumeration>
+		<enumeration xsi:type="xs:string">EXPIRED</enumeration>
+		<enumeration xsi:type="xs:string">FIT</enumeration>
+		<enumeration xsi:type="xs:string">INCORRECT_CIS</enumeration>
+		<enumeration xsi:type="xs:string">INCORRECT_IMEI</enumeration>
+		<enumeration xsi:type="xs:string">INCORRECT_SERAIL_NUMBER</enumeration>
+		<enumeration xsi:type="xs:string">MISGRADING</enumeration>
+		<enumeration xsi:type="xs:string">NON_COMPLIENT</enumeration>
+		<enumeration xsi:type="xs:string">NOT_ACCEPTABLE</enumeration>
+		<enumeration xsi:type="xs:string">SURPLUS</enumeration>
+		<enumeration xsi:type="xs:string">UNDEFINED</enumeration>
+		<enumeration xsi:type="xs:string">UNKNOWN</enumeration>
+		<enumeration xsi:type="xs:string">PART_MISSING</enumeration>
+	</valueType>
+	<valueType name="stockType" base="xs:integer" variety="Atomic">
+		<enumeration xsi:type="xs:string">-1</enumeration>
+		<enumeration xsi:type="xs:string">0</enumeration>
+		<enumeration xsi:type="xs:string">10</enumeration>
+		<enumeration xsi:type="xs:string">20</enumeration>
+		<enumeration xsi:type="xs:string">30</enumeration>
+		<enumeration xsi:type="xs:string">40</enumeration>
+		<enumeration xsi:type="xs:string">50</enumeration>
+		<enumeration xsi:type="xs:string">60</enumeration>
+		<enumeration xsi:type="xs:string">70</enumeration>
+		<enumeration xsi:type="xs:string">80</enumeration>
+		<enumeration xsi:type="xs:string">90</enumeration>
+		<enumeration xsi:type="xs:string">95</enumeration>
+		<enumeration xsi:type="xs:string">100</enumeration>
+		<enumeration xsi:type="xs:string">110</enumeration>
+		<enumeration xsi:type="xs:string">115</enumeration>
+		<enumeration xsi:type="xs:string">120</enumeration>
+	</valueType>
+	<objectType name="root" open="false" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="token" type="d3p1:token" lowerBound="1" upperBound="1" nillable="false" form="Element"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="uniq" type="d3p1:uniq" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="request" type="d3p1:request" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="response" type="d3p1:response" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="requestState" type="d3p1:requestState" lowerBound="0"/>
+	</objectType>
+	<objectType name="request">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="type" type="d3p1:type" nillable="false" form="Attribute"/>
+		<property name="limit" type="xs:integer" lowerBound="0" nillable="false" default="20"/>
+		<property name="offset" type="xs:integer" lowerBound="0" nillable="false" default="0"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inbound" type="d3p1:Inbound" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="items" type="d3p1:Items" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registry" type="d3p1:Registry" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitIds" type="d3p1:UnitIds" lowerBound="0" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundsId" type="d3p1:InboundsId" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="partner" type="d3p1:Partner" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="0" nillable="false"/>
+	</objectType>
+	<objectType name="response">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="type" type="d3p1:type" nillable="false" form="Attribute"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="base64Document" type="d3p1:base64Document" lowerBound="0" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="format" type="d3p1:format" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="requestState" type="d3p1:requestState" lowerBound="1" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="errorItems" type="d3p1:errorItems" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registryId" type="d3p1:ResourceId" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="itemStocksList" type="d3p1:itemStocksList" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundsStatus" type="d3p1:InboundsStatus" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundStatusHistory" type="d3p1:InboundStatusHistory" lowerBound="0" upperBound="-1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inbound" type="d3p1:Inbound" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registries" type="d3p1:Registries" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="requestState">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="errorCodes" type="d3p1:errorCodes" lowerBound="1" upperBound="1"/>
+		<property name="isError" type="xs:boolean" lowerBound="0" upperBound="1"/>
+	</objectType>
+	<objectType name="ErrorPair">
+		<property name="code" type="xs:integer" nillable="false"/>
+		<property name="message" type="xs:string" nillable="false"/>
+		<property name="description" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="errorCodes">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="errorCode" type="d3p1:ErrorPair" lowerBound="1" upperBound="-1"/>
+	</objectType>
+	<objectType name="ErrorItem" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitId" type="d3p1:UnitId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="errorCode" type="d3p1:ErrorPair" lowerBound="0" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="errorItems">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="errorItem" type="d3p1:ErrorItem" lowerBound="1" upperBound="-1"/>
+	</objectType>
+	<objectType name="ResourceId" open="false">
+		<property name="yandexId" lowerBound="1" upperBound="1">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="36"/>
+		</property>
+		<property name="partnerId" type="xs:string" lowerBound="0"/>
+		<property name="fulfillmentId" type="xs:string" lowerBound="0" nillable="false"/>
+	</objectType>
+	<objectType name="UnitId">
+		<property name="article" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="vendorId" type="xs:unsignedInt" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="id" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="UnitIds" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitId" type="d3p1:UnitId" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="UnitInfo" open="true" ordered="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="counts" type="d3p1:UnitCounts" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="compositeId" type="d3p1:CompositeId" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="relations" type="d3p1:UnitRelations" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="description" type="xs:string" lowerBound="0" upperBound="1" nillable="true"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="korobyte" type="d3p1:Korobyte" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="UnitCount" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="countType" type="d3p1:countType" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="quantity" type="xs:unsignedInt" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="UnitCounts">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="count" type="d3p1:UnitCount" lowerBound="1" upperBound="-1"/>
+	</objectType>
+	<objectType name="UnitRelation" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="parentId" type="d3p1:CompositeId" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="UnitRelations">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="relation" type="d3p1:UnitRelation" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="Korobyte" open="false">
+		<property name="width" type="xs:unsignedInt" lowerBound="1" upperBound="1"/>
+		<property name="height" type="xs:unsignedInt" lowerBound="1" upperBound="1"/>
+		<property name="length" type="xs:unsignedInt" lowerBound="1" upperBound="1"/>
+		<property name="weightGross" type="xs:float" lowerBound="1" upperBound="1"/>
+		<property name="weightNet" type="xs:float" lowerBound="0" upperBound="1"/>
+		<property name="weightTare" type="xs:float" lowerBound="0" upperBound="1"/>
+	</objectType>
+	<objectType name="Inbound" open="false" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundType" type="d3p1:inboundType" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="interval" type="d3p1:interval" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="logisticPoint" type="d3p1:LogisticPoint" lowerBound="0" upperBound="1"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="courier" type="d3p1:Courier" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outboundIds" type="d3p1:outboundIds" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="shipper" type="d3p1:Party" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="comment" type="d3p1:comment" lowerBound="0" upperBound="1"/>
+	</objectType>
+	<objectType name="Item" open="true" ordered="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitInfo" type="d3p1:UnitInfo" lowerBound="1" upperBound="1"/>
+		<property name="name" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="price" type="xs:decimal" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="cargoTypes" type="d3p1:cargoTypes" lowerBound="1" upperBound="-1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitId" type="d3p1:UnitId" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="vendorCodes" type="d3p1:VendorCodes" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="barcodes" type="d3p1:Barcodes" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="Items">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="item" type="d3p1:Item" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="Barcode" open="false">
+		<property name="code" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="type" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="source" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="Barcodes" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="barcode" type="d3p1:Barcode" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="VendorCodes" open="false">
+		<property name="vendorCode" type="xs:string" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="LogisticPoint">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="logisticPointId" type="d3p1:ResourceId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="name" type="xs:string" lowerBound="0" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="location" type="d3p1:Location" lowerBound="0" nillable="false"/>
+	</objectType>
+	<objectType name="Location" open="true">
+		<property name="country" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="region" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="locality" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="Courier" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="partnerId" type="d3p1:ResourceId" lowerBound="0" upperBound="1"/>
+	</objectType>
+	<objectType name="Contractor" open="false">
+		<property name="id" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="name" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="Partner" open="false">
+		<property name="id" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="outboundIds">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outboundId" type="d3p1:ResourceId" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="InboundsId">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="Party" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="logisticPoint" type="d3p1:LogisticPoint" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="legalEntity" type="d3p1:LegalEntity" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="partnerId" type="d3p1:ResourceId" lowerBound="0" nillable="false"/>
+	</objectType>
+	<objectType name="PartialId">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="idType" type="d3p1:idType" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="value" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="PartialIds" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="partialId" type="d3p1:PartialId" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="cargoTypes" open="false">
+		<property name="cargoType" type="xs:unsignedInt" lowerBound="1" upperBound="-1"/>
+	</objectType>
+	<objectType name="CompositeId" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="partialIds" type="d3p1:PartialIds" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="LegalEntity" open="true" ordered="false">
+		<property name="legalName" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="Registry" open="true" ordered="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registryId" type="d3p1:ResourceId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="movementId" type="d3p1:ResourceId" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outboundId" type="d3p1:ResourceId" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registryType" type="d3p1:registryType" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="date" type="xs:string"/>
+		<property name="comment" type="xs:string"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="pallets" type="d3p1:RegistryPallets" lowerBound="0" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="boxes" type="d3p1:RegistryBoxes" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="items" type="d3p1:RegistryItems" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="RegistryPallet" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitInfo" type="d3p1:UnitInfo" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="RegistryPallets" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="pallet" type="d3p1:RegistryPallet" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="RegistryBox">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitInfo" type="d3p1:UnitInfo" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="price" type="d3p1:price" lowerBound="0" upperBound="1"/>
+	</objectType>
+	<objectType name="RegistryBoxes" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="box" type="d3p1:RegistryBox" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="RegistryItems" open="true" ordered="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="item" type="d3p1:RegistryItem" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="RegistryItem" open="true" ordered="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitInfo" type="d3p1:UnitInfo" lowerBound="1" upperBound="1"/>
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="price" type="xs:decimal" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="cargoTypes" type="d3p1:cargoTypes" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="vendorCodes" type="d3p1:VendorCodes" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundServices" type="d3p1:InboundServices" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="barcodes" type="d3p1:Barcodes" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="hasLifeTime" type="xs:boolean" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="boxCapacity" type="xs:unsignedInt" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="boxCount" type="xs:unsignedInt" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="comment" type="xs:string" lowerBound="0" upperBound="1"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="contractor" type="d3p1:Contractor" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="categoryId" type="xs:unsignedInt" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="urls" type="d3p1:Urls" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="cisHandleMode" type="d3p1:cisHandleMode" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="Service">
+		<property name="code" type="xs:string" lowerBound="1" upperBound="1"/>
+		<property name="isOptional" type="xs:boolean" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="name" type="xs:string" lowerBound="0" upperBound="1"/>
+		<property name="description" type="xs:string" lowerBound="0" upperBound="1"/>
+	</objectType>
+	<objectType name="InboundServices" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundService" type="d3p1:Service" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="Urls" open="false">
+		<property name="url" type="xs:string" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="Stock" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="type" type="d3p1:stockType" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="count" type="xs:unsignedInt" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="update" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="itemStock" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitId" type="d3p1:UnitId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="stocks" type="d3p1:Stocks" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="Stocks" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="stock" type="d3p1:Stock" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="itemStocks" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="itemStock" type="d3p1:itemStock" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="itemStocksList" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="itemStocks" type="d3p1:itemStocks" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="InboundStatus" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="statusCode" type="xs:integer" lowerBound="1" upperBound="1" nillable="false"/>
+		<property name="date" type="xs:dateTime" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="InboundsStatus" open="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundStatus" type="d3p1:InboundStatus" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="History" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundStatus" type="d3p1:InboundStatus" lowerBound="0" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="InboundStatusHistory" open="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="history" type="d3p1:History" lowerBound="1" upperBound="1" nillable="false"/>
+	</objectType>
+	<objectType name="InboundStatusHistories" abstract="false">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundStatusHistory" type="d3p1:InboundStatusHistory" lowerBound="1" upperBound="-1" nillable="false"/>
+	</objectType>
+	<objectType name="Registries" ordered="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registry" type="d3p1:Registry" lowerBound="1" upperBound="100" nillable="false"/>
+	</objectType>
+</package>

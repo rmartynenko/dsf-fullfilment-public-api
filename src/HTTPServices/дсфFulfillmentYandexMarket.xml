@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<HTTPService uuid="83b9eea9-bae8-4e00-ac8f-c5df696e74af">
+		<Properties>
+			<Name>дсфFulfillmentYandexMarket</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>DSF / YandexMarket Data Exchange</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<RootURL>ym</RootURL>
+			<ReuseSessions>AutoUse</ReuseSessions>
+			<SessionMaxAge>20</SessionMaxAge>
+		</Properties>
+		<ChildObjects>
+			<URLTemplate uuid="8c285bb5-f7c4-49e7-9522-f9e3ac4c15b1">
+				<Properties>
+					<Name>Health</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Health</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Проверка доступности сервиса</Comment>
+					<Template>/api/health</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="613d302e-05ce-46f7-8479-398def521577">
+						<Properties>
+							<Name>GET</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>GET</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>HealthGET</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="1f889e61-c740-4806-acaf-42769432ac01">
+				<Properties>
+					<Name>SendData</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прием входящих запросов от YM (универсальный)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/send-data</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="ba652f77-a384-4534-874f-2f5a927cdb93">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>SendDataPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="7a6f0cca-b6be-42d2-a5e9-98c4c78ec2a7">
+				<Properties>
+					<Name>putInbound</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Put inbound</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/inbounds</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="edececd5-a4c1-49ce-8789-ea013358ea29">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>putInboundPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="f0ca9860-b207-40cc-a7d8-88bf76168c80">
+				<Properties>
+					<Name>putInboundRegistry</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Put inbound registry</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Создать или обновить реестр приемки</Comment>
+					<Template>/api/inbounds/registries</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="1aaa41b8-b09d-4d1f-8d09-8bd48235fa16">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>putInboundRegistryPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="0fbf1883-82ce-49d3-981c-04a76fbcc444">
+				<Properties>
+					<Name>getInboundsStatus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус приемки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/inbounds/statuses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="f4bba73c-89d8-429e-bbd5-2c89b4a1c2c7">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getInboundsStatusPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="5bbf642e-9e53-455d-9a8c-663212d7d0a6">
+				<Properties>
+					<Name>getInboundHistory</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>История статусов заказа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/inbounds/statuses/history</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="4d73d2c4-35ac-4b6c-84a2-5683c21a4ae3">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getInboundHistoryPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="3e345231-40da-41c2-bb5e-96ec86ecb703">
+				<Properties>
+					<Name>getStocks</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get stocks</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Запрос позволяет Маркету получить стоки по товарам</Comment>
+					<Template>/api/stocks</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="d2f55553-4aa8-4a41-8a49-959f42b747df">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getStocksPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="920c113d-bd23-4098-9c8d-684ff71a3b78">
+				<Properties>
+					<Name>getInbound</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получение деталей приёмки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/inbounds/details</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="1355ea50-f428-4c2b-a659-1bc9c13979ea">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getInboundPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+		</ChildObjects>
+	</HTTPService>
+</MetaDataObject>

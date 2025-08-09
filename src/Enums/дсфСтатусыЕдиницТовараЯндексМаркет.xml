@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="d5675712-65f2-45be-b187-cd681aceee0f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.дсфСтатусыЕдиницТовараЯндексМаркет" category="Ref">
+				<xr:TypeId>96e997b9-f007-4f07-838c-5da0390a04b2</xr:TypeId>
+				<xr:ValueId>3b458a6f-1f40-45a7-b01a-348dd1bfd50d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.дсфСтатусыЕдиницТовараЯндексМаркет" category="Manager">
+				<xr:TypeId>48927f85-720d-4895-9362-c97aac71b093</xr:TypeId>
+				<xr:ValueId>ea79384e-de39-418e-80a6-e819f4b34760</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.дсфСтатусыЕдиницТовараЯндексМаркет" category="List">
+				<xr:TypeId>c2a5dbc3-a618-467a-ad47-06fd10756274</xr:TypeId>
+				<xr:ValueId>838e9a07-5917-4867-a467-640906d5bfa3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>дсфСтатусыЕдиницТовараЯндексМаркет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Статусы единиц товара [DSF, YandexMarket]</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="40e1a4c4-ab2b-4a3a-a88f-e666b593461f">
+				<Properties>
+					<Name>ANOMALY</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ANOMALY (запрещенные излишки или неопознанные единицы товара)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Запрещенные излишки или неопознанные единицы товара</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fe32cb51-0439-424b-840a-5d06d1a89b10">
+				<Properties>
+					<Name>DEFECT</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>DEFECT (бракованные)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a57186dd-dc5f-4419-9f5c-f943e779493b">
+				<Properties>
+					<Name>EXPIRED</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>EXPIRED (с истекшим сроком доставки)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ce749357-c999-47b3-8b04-752f08f53bf0">
+				<Properties>
+					<Name>FIT</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FIT (годные)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ad603edb-22d6-4082-b9fa-641a8830bb18">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.дсфТипыСтоковЯндексМаркет" category="Ref">
+				<xr:TypeId>9cceafaf-8775-48a6-a11f-f3a2b43b993a</xr:TypeId>
+				<xr:ValueId>ba08d965-aca5-4b5d-94e0-865c384b2e6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.дсфТипыСтоковЯндексМаркет" category="Manager">
+				<xr:TypeId>ebd6c533-cd06-40f0-af0a-e6af44b1ac5b</xr:TypeId>
+				<xr:ValueId>59469c0e-fe08-4b0d-ae28-3c725ead565a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.дсфТипыСтоковЯндексМаркет" category="List">
+				<xr:TypeId>b233389c-8893-4d4f-99e2-ac75ea0ff907</xr:TypeId>
+				<xr:ValueId>2b2e5ac5-4895-4c1b-b642-c6c7fdc5f223</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>дсфТипыСтоковЯндексМаркет</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы стоков [DSF, YandexMarket]</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4a70babd-a4a5-47fb-b6fe-40470ad3f117">
+				<Properties>
+					<Name>НеОпределен</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[-1] Не определен</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9419fd67-2531-45bc-b848-146cdf56d902">
+				<Properties>
+					<Name>ПринимаютсяНаСкладМаркетаСлужебный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[0] Товары принимаются на склад Маркета (служебный тип)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="91cd3a44-3a67-45c4-8ee2-8254cc0c5da5">
+				<Properties>
+					<Name>Годные</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[10] Товары в хорошем состоянии</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7baedaec-d47a-4261-953a-5a2cc45fe0ca">
+				<Properties>
+					<Name>ДоступныДляЗаказа</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[20] Товары доступны для заказа</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e6a0dfc8-abfb-4de7-a854-237570094582">
+				<Properties>
+					<Name>Просрочены</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[30] Товары просрочены</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="504860cc-35ed-468c-9f6b-09f9b8dafba9">
+				<Properties>
+					<Name>НеНайденыНаСкладеПриИнвентаризацииИлиПеремещаются</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[40] Товары не найдены при инвентаризации или перемещаются по складу</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cb42abbf-36c8-45b9-92c5-d2e14af9f2a7">
+				<Properties>
+					<Name>Брак</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[50] Товары с браком</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
