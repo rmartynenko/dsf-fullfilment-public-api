@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="7149f77b-55be-48ce-8cd1-6c4cc12523de">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыВводаЧисломПроцентом" category="Ref">
+				<xr:TypeId>8e06cef5-6095-478b-8122-4d2a9044174c</xr:TypeId>
+				<xr:ValueId>47980e69-5445-4c11-a560-9e44af17eb36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВводаЧисломПроцентом" category="Manager">
+				<xr:TypeId>d7fd2943-842a-449c-883e-c48f436826df</xr:TypeId>
+				<xr:ValueId>8d7c309a-086b-44b5-a2aa-748c3e5fbf94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВводаЧисломПроцентом" category="List">
+				<xr:TypeId>751d2be8-3fb8-4474-8671-09d8e3e2fe6d</xr:TypeId>
+				<xr:ValueId>b8ea1edc-d335-41fb-a329-5537db14d225</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыВводаЧисломПроцентом</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>90095682-73dc-4aa6-b4de-85a0929668bd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c22d44aa-dfa0-4bfe-aced-321d8c1eda65">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Числом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d9837282-b612-4708-afae-9b8538830c9b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b99263dc-514e-4029-9970-1ba037ad278b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Процентом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>322a04b7-ae2c-4753-a812-2ec50b5e2040</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

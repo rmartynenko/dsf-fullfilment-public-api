@@ -62,7 +62,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.дсфОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ТОО "ArgumentOne"</Vendor>
-			<Version>1.0.1.4</Version>
+			<Version>1.0.1.5</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -90,29 +90,31 @@
 			<CommonModule>аргмПравилаОбработкиВходящихЗапросовA1Переопределяемый</CommonModule>
 			<CommonModule>аргмПравилаОбработкиВходящихЗапросовА1ПовтИсп</CommonModule>
 			<CommonModule>дсфВходящиеЗапросыЯндексМаркет</CommonModule>
+			<CommonModule>дсфДокументыАпи</CommonModule>
 			<CommonModule>дсфЗащищенныеФункцииВызовСервера</CommonModule>
 			<CommonModule>дсфЗащищенныеФункцииСлужебный</CommonModule>
 			<CommonModule>дсфМенеджерДанныхАпи</CommonModule>
 			<CommonModule>дсфМенеджерДанныхЯндексМаркет</CommonModule>
+			<CommonModule>дсфНормативноСправочнаяИнформацияАпи</CommonModule>
 			<CommonModule>дсфОбменДаннымиXDTOЯндексМаркет</CommonModule>
 			<CommonModule>дсфОбменДаннымиСлужебный</CommonModule>
 			<CommonModule>дсфОбработкаВходящихЗапросовАпи</CommonModule>
 			<CommonModule>дсфОбработкаЗапросовЯндексМаркет</CommonModule>
 			<CommonModule>дсфОбработкаОшибокЯндексМаркет</CommonModule>
 			<CommonModule>дсфОбщегоНазначения</CommonModule>
+			<CommonModule>дсфОбщегоНазначенияАпиПовтИсп</CommonModule>
 			<CommonModule>дсфОбщегоНазначенияВызовСервераПовтИсп</CommonModule>
 			<CommonModule>дсфОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>дсфОбщегоНазначенияКлиентСервер</CommonModule>
 			<CommonModule>дсфОбщегоНазначенияЯндексМаркет</CommonModule>
 			<CommonModule>дсфПолучениеСведенийЯндексМаркет</CommonModule>
 			<CommonModule>дсфПравилаОбработкиВходящихЗапросовАпи</CommonModule>
+			<CommonModule>дсфСлужебныйАпи</CommonModule>
+			<CommonModule>дсфСозданиеИзменениеДанныхАпи</CommonModule>
 			<CommonModule>дсфСозданиеОбновлениеДанныхЯндексМаркет</CommonModule>
 			<CommonModule>дсфСтатусыДокументовЯндексМаркет</CommonModule>
 			<CommonModule>дсфСтатусыДокументовЯндексМаркетПовтИсп</CommonModule>
 			<CommonModule>дсфФормированиеОтветовЯндексМаркет</CommonModule>
-			<CommonModule>дсфНоменклатураАпи</CommonModule>
-			<CommonModule>дсфСозданиеИзменениеДанныхАпи</CommonModule>
-			<CommonModule>дсфОбщегоНазначенияАпиПовтИсп</CommonModule>
 			<XDTOPackage>дсфFulfillmentYandexMarket</XDTOPackage>
 			<HTTPService>дсфFulfillmentYandexMarket</HTTPService>
 			<HTTPService>дсфFulfillmentPublicApi</HTTPService>
@@ -127,10 +129,13 @@
 			<Constant>дсфТипМестаХраненияДляПалет</Constant>
 			<Constant>дсфЕдиницаИзмеренияШтук</Constant>
 			<Constant>дсфЕдиницаИзмеренияКоробов</Constant>
+			<Catalog>АдресаДоставки</Catalog>
+			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Catalog>ВидыОбъектовХранения</Catalog>
 			<Catalog>ЕдиницыИзмерения</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>МестаХранения</Catalog>
+			<Catalog>НастройкиОстаточногоСрокаГодности</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ОбъектыХранения</Catalog>
 			<Catalog>Партии</Catalog>
@@ -140,6 +145,7 @@
 			<Catalog>СостоянияОбъектовХранения</Catalog>
 			<Catalog>СтатусыДокументов</Catalog>
 			<Catalog>ТипыМестХранения</Catalog>
+			<Catalog>ТипыОтгрузки</Catalog>
 			<Catalog>ТорговыеМарки</Catalog>
 			<Catalog>Упаковки</Catalog>
 			<Catalog>УпаковкиНоменклатуры</Catalog>
@@ -155,6 +161,10 @@
 			<Enum>дсфТипыРеестровЯндексМаркет</Enum>
 			<Enum>дсфТипыСтоковЯндексМаркет</Enum>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
+			<Enum>Приоритеты</Enum>
+			<Enum>СпособыВводаЧисломПроцентом</Enum>
+			<Enum>ТипыКонтактнойИнформации</Enum>
+			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<DataProcessor>дсфПанельАдминистрирования</DataProcessor>
 			<InformationRegister>аргмЖурналВходящихHttpЗапросовА1</InformationRegister>
 			<InformationRegister>дсфВерсииРеестровПриемкиЯндексМаркет</InformationRegister>
@@ -166,6 +176,9 @@
 			<InformationRegister>СтрокиПлановПоступления</InformationRegister>
 			<InformationRegister>СтрокиПлановПоступленияГрузовыхМест</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
+			<InformationRegister>ШтрихкодыОбъектовХранения</InformationRegister>
+			<InformationRegister>СтрокиПлановОтгрузки</InformationRegister>
+			<InformationRegister>СтрокиПлановОтгрузкиГрузовыхМест</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

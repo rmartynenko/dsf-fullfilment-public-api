@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="247a022d-72e3-46c8-9f11-2eb3bc33f0ab">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиОстаточногоСрокаГодности" category="Object">
+				<xr:TypeId>09411482-6a7e-419f-ad47-627bb2972fd6</xr:TypeId>
+				<xr:ValueId>1037d6b0-ae8f-40b3-a859-12d132b61692</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиОстаточногоСрокаГодности" category="Ref">
+				<xr:TypeId>90059aba-a82e-4dac-a07a-4193b58bf5ea</xr:TypeId>
+				<xr:ValueId>99d06f1e-76b2-4122-a87e-e0a557aa2d96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиОстаточногоСрокаГодности" category="Selection">
+				<xr:TypeId>f74e9985-20b3-4cb9-a70d-9f3390859c83</xr:TypeId>
+				<xr:ValueId>cbca518d-0b90-4d46-aef6-ffa85b23742d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиОстаточногоСрокаГодности" category="List">
+				<xr:TypeId>1f65fa4c-c11e-4229-8a92-12a0c7501446</xr:TypeId>
+				<xr:ValueId>5b87c924-f37b-4ee3-a338-2256e3b3978b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиОстаточногоСрокаГодности" category="Manager">
+				<xr:TypeId>9438a198-7976-4bc4-a12b-4dd95bf9313e</xr:TypeId>
+				<xr:ValueId>00a0853f-1a43-4e60-a159-8f16b63af9d6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НастройкиОстаточногоСрокаГодности</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>3001e90e-e43a-4296-8831-1d8e66ffb264</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

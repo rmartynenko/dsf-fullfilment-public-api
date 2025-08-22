@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="158148e2-7bed-4536-8dc4-41f4ca55a251">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтрокиПлановОтгрузкиГрузовыхМест" category="Record">
+				<xr:TypeId>7a3d2216-2a60-45a7-b590-d9001a635249</xr:TypeId>
+				<xr:ValueId>dd8e67ca-a9c6-4dde-8b86-ae672f1e53e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтрокиПлановОтгрузкиГрузовыхМест" category="Manager">
+				<xr:TypeId>94ddd284-e6ca-4da2-bd02-db446241775f</xr:TypeId>
+				<xr:ValueId>8de44e28-6ffd-4b21-8fe2-f30e5b08c50f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтрокиПлановОтгрузкиГрузовыхМест" category="Selection">
+				<xr:TypeId>76daddb0-74dd-4ae9-ba9a-6abff680e7e3</xr:TypeId>
+				<xr:ValueId>2b209d1e-f492-4b77-bc1f-b440e307f59f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтрокиПлановОтгрузкиГрузовыхМест" category="List">
+				<xr:TypeId>fe340b6e-4478-4705-9b83-eef9fec27927</xr:TypeId>
+				<xr:ValueId>4415e04b-b1e4-4dd7-a102-0f0b2d77570a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтрокиПлановОтгрузкиГрузовыхМест" category="RecordSet">
+				<xr:TypeId>c2ee0675-d834-4629-bdd8-8390cf1967b4</xr:TypeId>
+				<xr:ValueId>431c1b00-9aac-48cd-b10b-11c0344d7c88</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтрокиПлановОтгрузкиГрузовыхМест" category="RecordKey">
+				<xr:TypeId>0e5c00a7-c2ca-40bd-983f-443a67b8beb2</xr:TypeId>
+				<xr:ValueId>515d0af6-469d-465a-a6c8-6fcc0a8e539e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтрокиПлановОтгрузкиГрузовыхМест" category="RecordManager">
+				<xr:TypeId>09c8cd77-f9e8-4b34-8960-14371694514d</xr:TypeId>
+				<xr:ValueId>cc3661e8-fb8a-4fb0-adbd-0b1d2655ec39</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтрокиПлановОтгрузкиГрузовыхМест</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>150399f1-8a0e-41ac-9457-596692aeea35</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

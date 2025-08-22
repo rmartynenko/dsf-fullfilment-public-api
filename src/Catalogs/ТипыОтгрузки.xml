@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="5500c32f-0cca-4971-a202-efe7f54fcf33">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТипыОтгрузки" category="Object">
+				<xr:TypeId>76a764d0-3e17-4abf-a545-c5ac53a7bfcb</xr:TypeId>
+				<xr:ValueId>3b446366-e1ce-47b7-a7c9-fb9eb492d974</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТипыОтгрузки" category="Ref">
+				<xr:TypeId>c29b8b13-4849-4445-b596-29ed145d375b</xr:TypeId>
+				<xr:ValueId>22d77a62-ae90-4cbe-88d4-f2a1bf72a3fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТипыОтгрузки" category="Selection">
+				<xr:TypeId>843bc108-cfe1-46e2-a677-ebb0c9ffa459</xr:TypeId>
+				<xr:ValueId>a7d3ac45-8cb0-4167-86ad-0a7e96914099</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТипыОтгрузки" category="List">
+				<xr:TypeId>87cb0c14-50e0-4096-9eb0-8bbdcb58dab3</xr:TypeId>
+				<xr:ValueId>ac796a89-46ed-4a7b-ace2-3f41c72fdb79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТипыОтгрузки" category="Manager">
+				<xr:TypeId>3a8ae7d2-0425-4a25-87b2-0155b319c7e3</xr:TypeId>
+				<xr:ValueId>0d879a63-54be-43fd-b3a7-94d285816317</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыОтгрузки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>033d5439-47c9-4d53-a6ea-729fc674c22d</ExtendedConfigurationObject>
+			<CodeLength>0</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

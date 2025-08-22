@@ -4,7 +4,65 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Catalog.АдресаДоставки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.Ответ</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтрокиПлановОтгрузкиГрузовыхМест</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Dimension.Ресурс</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Упаковки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.Запрос</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.НастройкиОстаточногоСрокаГодности</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -25,10 +83,24 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ОжидаемоеПоступление</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Номенклатура</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.ДатаСоздания</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -39,10 +111,38 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.Длительность</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВидыКонтактнойИнформации</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.УпаковкиНоменклатуры</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Dimension.Клиент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Dimension.КлючИдемпотентности</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -114,6 +214,20 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ТипыОтгрузки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ПланПоступления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Пользователи</name>
 		<right>
 			<name>Read</name>
@@ -156,9 +270,20 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ПланОтгрузки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -170,6 +295,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Dimension.ИдентификаторЗапроса</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.дсфСоответствиеСостоянийОбъектовХраненияКодамЯндексМаркет</name>
 		<right>
 			<name>Read</name>
@@ -177,9 +309,34 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.ДатаУстаревания</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Контрагенты</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Resource.Состояние</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтрокиПлановПоступленияГрузовыхМест</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -205,9 +362,27 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.ХешТелаЗапроса</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтрокиПлановОтгрузки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -219,10 +394,49 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.StandardAttribute.Period</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.дсфИдентификаторыЯндексМаркет</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.ДатаОбработки</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -233,10 +447,42 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыНоменклатуры</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.МоментВремени</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ТипыМестХранения</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Dimension.Метод</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.Асинхронный</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -268,6 +514,28 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ШтрихкодыОбъектовХранения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СтрокиПлановПоступления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Партии</name>
 		<right>
 			<name>Read</name>
@@ -282,10 +550,31 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.БазовыйURL</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.дсфИдентификаторСкладаЯндексМаркет</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.ТипЗапроса</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.ТекстСообщенияОбОшибке</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 </Rights>

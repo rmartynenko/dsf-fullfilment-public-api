@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="eb8475e4-b9c9-4bf0-92c9-655c37d91298">
+		<Name>СправочникКонтрагенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контрагенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ExtensionState>AdoptedCheck</ExtensionState>
+		<ChildItems>
+			<Item id="96302a49-619e-49f2-87f1-b4b487cb540a">
+				<Name>ЮридическийАдресКонтрагента</Name>
+				<Code/>
+				<Description>Юридический адрес</Description>
+				<IsFolder>false</IsFolder>
+				<ExtensionState>AdoptedCheck</ExtensionState>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

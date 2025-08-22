@@ -39,10 +39,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфНастройкиДоступаКАпи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфОбработкаВходящихЗапросовАпи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфМенеджерДанныхАпи</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфНоменклатураАпи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфНормативноСправочнаяИнформацияАпи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфСозданиеИзменениеДанныхАпи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.дсфЕдиницаИзмеренияКоробов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.дсфЕдиницаИзмеренияШтук</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфДокументыАпи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфСлужебныйАпи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

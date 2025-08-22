@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="d9932905-8c79-4a26-83fc-f2fd95c09c2f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ЮридическоеФизическоеЛицо" category="Ref">
+				<xr:TypeId>3ed6e7ae-20b7-418c-9a13-b0d5a3891ce4</xr:TypeId>
+				<xr:ValueId>439272c4-20f2-4bcb-913c-94185d553e3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ЮридическоеФизическоеЛицо" category="Manager">
+				<xr:TypeId>49abff0b-8ef5-4367-a64a-c2796f68c79e</xr:TypeId>
+				<xr:ValueId>f3e9f2a7-0cf3-4ed3-b10d-9e5c73215219</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ЮридическоеФизическоеЛицо" category="List">
+				<xr:TypeId>6d6eac5b-be54-4063-ba7c-46a34057b75f</xr:TypeId>
+				<xr:ValueId>8eec7b3f-a353-40f3-bd82-83b8708bde36</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЮридическоеФизическоеЛицо</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>97c7cfb8-abfb-4585-8d48-7d4047c804dd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

@@ -73,6 +73,122 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="d99c8486-52ac-4055-add9-3a1c1968d26a">
+				<Properties>
+					<Name>Partners</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрагенты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/partners</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="b32d7c1b-e11e-416a-bb1f-b509012a1aa5">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Регистрация контрагента</Comment>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>PartnersPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="7143bcd2-40e9-45a1-9897-3d4415be1c19">
+				<Properties>
+					<Name>PartnerChanges</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение контрагентов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/partners/{partner-id}</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="5e5e3911-6d69-4a01-8a0b-59288bc7b4d7">
+						<Properties>
+							<Name>PUT</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>PUT</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>Изменение сведений о контрагенте</Comment>
+							<HTTPMethod>PUT</HTTPMethod>
+							<Handler>PartnerChangesPUT</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="76161829-09dc-479f-b695-bd21cd8cfa7e">
+				<Properties>
+					<Name>InboundOrders</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Планы поступления</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/orders/inbounds</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="bc7d3c6a-25d3-4628-b90d-b326bfab51a9">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>InboundOrdersPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="13c3259b-111d-4e5f-934d-691538a65c91">
+				<Properties>
+					<Name>OutboundOrders</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Планы отгрузки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/orders/outbounds</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="a74f3e6d-6aa3-498b-9655-90cd2441b8c2">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>OutboundOrdersPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
