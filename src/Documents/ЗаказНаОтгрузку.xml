@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="987063f3-2a40-45ef-8a2b-f8bc374d7c23">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказНаОтгрузку" category="Object">
+				<xr:TypeId>01c9718a-0032-4695-8c78-b28e4466b16e</xr:TypeId>
+				<xr:ValueId>b2a99e27-fd8c-405c-b55b-872d59c10945</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказНаОтгрузку" category="Ref">
+				<xr:TypeId>a9a76480-3008-41dc-984d-5608409b2fcf</xr:TypeId>
+				<xr:ValueId>cbcbb1d6-847a-4cd2-aa36-552cc9f2ffdf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказНаОтгрузку" category="Selection">
+				<xr:TypeId>3b69e5ef-6c4f-4e9c-b3e8-e70d21592045</xr:TypeId>
+				<xr:ValueId>e53b89ca-fc80-4c4d-bf82-62964c4cd15d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказНаОтгрузку" category="List">
+				<xr:TypeId>cb6381cb-6884-4e5b-b658-535221dfa4c6</xr:TypeId>
+				<xr:ValueId>9a82bfc5-3674-46fe-9a74-d173a479cb55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказНаОтгрузку" category="Manager">
+				<xr:TypeId>b6be04f5-9dc8-4692-ab87-a05d768d01f5</xr:TypeId>
+				<xr:ValueId>d20ef3c0-d55d-4971-a812-d88f52cb819a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказНаОтгрузку</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>13313ac3-d1e9-4266-93d6-e476b61d5e9b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

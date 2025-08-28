@@ -12,6 +12,7 @@
 		<enumeration xsi:type="xs:string">undefined</enumeration>
 		<enumeration xsi:type="xs:string">putReferenceItems</enumeration>
 		<enumeration xsi:type="xs:string">getStocks</enumeration>
+		<enumeration xsi:type="xs:string">putOutbound</enumeration>
 	</valueType>
 	<valueType name="token" base="xs:string" variety="Atomic" minLength="1" maxLength="36"/>
 	<valueType name="uniq" base="xs:string" variety="Atomic" minLength="1"/>
@@ -114,6 +115,9 @@
 		<enumeration xsi:type="xs:string">115</enumeration>
 		<enumeration xsi:type="xs:string">120</enumeration>
 	</valueType>
+	<valueType name="outboundType" base="xs:int" variety="Atomic">
+		<enumeration xsi:type="xs:string">0</enumeration>
+	</valueType>
 	<objectType name="root" open="false" ordered="false" sequenced="true">
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="token" type="d3p1:token" lowerBound="1" upperBound="1" nillable="false" form="Element"/>
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="uniq" type="d3p1:uniq" nillable="false"/>
@@ -132,6 +136,8 @@
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundsId" type="d3p1:InboundsId" lowerBound="0" upperBound="1" nillable="false"/>
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="partner" type="d3p1:Partner" lowerBound="0" upperBound="1" nillable="false"/>
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="0" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outbound" type="d3p1:Outbound" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outboundId" type="d3p1:ResourceId" lowerBound="0" nillable="false"/>
 	</objectType>
 	<objectType name="response">
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="type" type="d3p1:type" nillable="false" form="Attribute"/>
@@ -146,6 +152,7 @@
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundStatusHistory" type="d3p1:InboundStatusHistory" lowerBound="0" upperBound="-1" nillable="false"/>
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inbound" type="d3p1:Inbound" lowerBound="0" upperBound="1" nillable="false"/>
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registries" type="d3p1:Registries" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outboundId" type="d3p1:ResourceId" lowerBound="0" upperBound="1" nillable="false"/>
 	</objectType>
 	<objectType name="requestState">
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="errorCodes" type="d3p1:errorCodes" lowerBound="1" upperBound="1"/>
@@ -176,7 +183,7 @@
 	<objectType name="UnitId">
 		<property name="article" type="xs:string" lowerBound="1" upperBound="1" nillable="false"/>
 		<property name="vendorId" type="xs:unsignedInt" lowerBound="1" upperBound="1" nillable="false"/>
-		<property name="id" type="xs:string" lowerBound="0" upperBound="1" nillable="false"/>
+		<property name="id" type="xs:string" lowerBound="0" upperBound="1"/>
 	</objectType>
 	<objectType name="UnitIds" open="false">
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="unitId" type="d3p1:UnitId" lowerBound="1" upperBound="-1" nillable="false"/>
@@ -360,11 +367,8 @@
 	<objectType name="Stocks" open="false">
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="stock" type="d3p1:Stock" lowerBound="1" upperBound="-1" nillable="false"/>
 	</objectType>
-	<objectType name="itemStocks" open="false">
-		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="itemStock" type="d3p1:itemStock" lowerBound="1" upperBound="-1" nillable="false"/>
-	</objectType>
 	<objectType name="itemStocksList" open="true">
-		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="itemStocks" type="d3p1:itemStocks" lowerBound="1" upperBound="-1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="itemStocks" type="d3p1:itemStock" lowerBound="1" upperBound="-1" nillable="false"/>
 	</objectType>
 	<objectType name="InboundStatus" open="false">
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="inboundId" type="d3p1:ResourceId" lowerBound="1" upperBound="1" nillable="false"/>
@@ -386,5 +390,13 @@
 	</objectType>
 	<objectType name="Registries" ordered="true">
 		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="registry" type="d3p1:Registry" lowerBound="1" upperBound="100" nillable="false"/>
+	</objectType>
+	<objectType name="Outbound" open="false" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outboundId" type="d3p1:ResourceId" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="outboundType" type="d3p1:outboundType" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="interval" type="d3p1:interval" lowerBound="1" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="logisticPoint" type="d3p1:LogisticPoint" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="courier" type="d3p1:Courier" lowerBound="0" upperBound="1" nillable="false"/>
+		<property xmlns:d3p1="http://www.dsf-yandex-market.kz" name="comment" type="d3p1:comment" lowerBound="1" upperBound="1"/>
 	</objectType>
 </package>

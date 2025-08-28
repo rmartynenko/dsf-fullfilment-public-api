@@ -33,6 +33,10 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯндексМаркет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.дсфОбщегоНазначенияЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.дсфТипыОтправкиЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.дсфОсновнойИдентификаторПоставщикаЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

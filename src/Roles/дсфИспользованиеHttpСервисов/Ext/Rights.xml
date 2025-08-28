@@ -23,6 +23,41 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.дсфЗаявкаНаОтгрузку</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Attribute.Ответ</name>
 		<right>
 			<name>Edit</name>
@@ -323,6 +358,44 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Resource.Состояние</name>
 		<right>
 			<name>Edit</name>
@@ -370,6 +443,13 @@
 	</object>
 	<object>
 		<name>InformationRegister.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.дсфОсновнойИдентификаторПоставщикаЯндексМаркет</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

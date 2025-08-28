@@ -42,7 +42,7 @@
 		<Metadata name="CommonModule.аргмПравилаОбработкиВходящихЗапросовА1ПовтИсп" id="3f8686cc-5324-4baa-825d-3ba13f0466b4" configVersion="a0897b9fa7b8b201f785964e64036d660a62efb8"/>
 		<Metadata name="CommonModule.аргмПравилаОбработкиВходящихЗапросовА1ПовтИсп.Module" id="3f8686cc-5324-4baa-825d-3ba13f0466b4.0" configVersion="7d074bb1f147efedcc8111ce9fdc38b6bf31bb36"/>
 		<Metadata name="CommonModule.дсфВходящиеЗапросыЯндексМаркет" id="95de8225-13c2-4984-b1a2-341c48b125d9" configVersion="1d931b9f5197b2ec6b14bc09c5c4fcdef9b67692"/>
-		<Metadata name="CommonModule.дсфВходящиеЗапросыЯндексМаркет.Module" id="95de8225-13c2-4984-b1a2-341c48b125d9.0" configVersion="f7d7ca351fe31099184e2e8812a439109296f5df"/>
+		<Metadata name="CommonModule.дсфВходящиеЗапросыЯндексМаркет.Module" id="95de8225-13c2-4984-b1a2-341c48b125d9.0" configVersion="a2549c63dc153e466762b2a2f429d79c1bbe9b2c"/>
 		<Metadata name="CommonModule.дсфДокументыАпи" id="1b5231f1-08a0-4adc-82d1-b8aede714861" configVersion="6e70639e2b835f3a36c00c6d90873c4b35051d54"/>
 		<Metadata name="CommonModule.дсфДокументыАпи.Module" id="1b5231f1-08a0-4adc-82d1-b8aede714861.0" configVersion="b4228a3c3bc4ee9baa7b6f31f97e727c5bd72f17"/>
 		<Metadata name="CommonModule.дсфЗащищенныеФункцииВызовСервера" id="3e925f89-96d9-4251-adfc-0fa6f11aa65d" configVersion="b9a79e590ed7418ebb1f204ac38c6ddcb2078101"/>
@@ -52,7 +52,7 @@
 		<Metadata name="CommonModule.дсфМенеджерДанныхАпи" id="7bb85561-ce6f-414c-b1a0-72ec1d12dd39" configVersion="e68e349d21269dd25bc8c8aa70210df3e547300d"/>
 		<Metadata name="CommonModule.дсфМенеджерДанныхАпи.Module" id="7bb85561-ce6f-414c-b1a0-72ec1d12dd39.0" configVersion="619259590079275dae4fcf0da7a7b7cedded535e"/>
 		<Metadata name="CommonModule.дсфМенеджерДанныхЯндексМаркет" id="f0845afb-f3ef-4e5c-b8e3-19279946b373" configVersion="6ffb1e757b0b00abed50a5dd2d6644efab8f98de"/>
-		<Metadata name="CommonModule.дсфМенеджерДанныхЯндексМаркет.Module" id="f0845afb-f3ef-4e5c-b8e3-19279946b373.0" configVersion="4b3f5954ac75d710c50b1a9e9a65b729d2839044"/>
+		<Metadata name="CommonModule.дсфМенеджерДанныхЯндексМаркет.Module" id="f0845afb-f3ef-4e5c-b8e3-19279946b373.0" configVersion="e60838f5adc8308d4847e8dd2b7b19bb829c5ca9"/>
 		<Metadata name="CommonModule.дсфНормативноСправочнаяИнформацияАпи" id="8e86e0b8-e84a-48b4-90c5-37c203d16201" configVersion="c0c813e01d1764b7590176dad558cc3277c94da9"/>
 		<Metadata name="CommonModule.дсфНормативноСправочнаяИнформацияАпи.Module" id="8e86e0b8-e84a-48b4-90c5-37c203d16201.0" configVersion="7eac8920bae414699614ebe426895cddc51cb5df"/>
 		<Metadata name="CommonModule.дсфОбменДаннымиXDTOЯндексМаркет" id="ecafde55-08c7-4026-a606-4214658e6379" configVersion="fa905e7ac3c6aaba97fceb692e47f91380e1a00e"/>
@@ -62,7 +62,7 @@
 		<Metadata name="CommonModule.дсфОбработкаВходящихЗапросовАпи" id="280a5906-818e-40ec-a68b-c796b49220a6" configVersion="ae512bdf7c0ad37fa25492d82298fdac5bf13367"/>
 		<Metadata name="CommonModule.дсфОбработкаВходящихЗапросовАпи.Module" id="280a5906-818e-40ec-a68b-c796b49220a6.0" configVersion="3ac597958385bd2b00f77e24e219b3f2f44c0986"/>
 		<Metadata name="CommonModule.дсфОбработкаЗапросовЯндексМаркет" id="043d7a65-ebb5-4938-9907-04ac35237265" configVersion="78cf0755d19577f165af39f80623e9fa8f3aa3c1"/>
-		<Metadata name="CommonModule.дсфОбработкаЗапросовЯндексМаркет.Module" id="043d7a65-ebb5-4938-9907-04ac35237265.0" configVersion="dbecd57115d364d9ef525ab8f947d3e447c25e95"/>
+		<Metadata name="CommonModule.дсфОбработкаЗапросовЯндексМаркет.Module" id="043d7a65-ebb5-4938-9907-04ac35237265.0" configVersion="628e8d58cdc9fb6dea9dc47540f5454c56d86fb4"/>
 		<Metadata name="CommonModule.дсфОбработкаОшибокЯндексМаркет" id="92277c29-3f38-439b-9135-486687026ec2" configVersion="85ffec04e2c2836cb54ec401909d1a780e72e35c"/>
 		<Metadata name="CommonModule.дсфОбработкаОшибокЯндексМаркет.Module" id="92277c29-3f38-439b-9135-486687026ec2.0" configVersion="21ccffd804c711ac695fe0b2b99bf08ef8e19779"/>
 		<Metadata name="CommonModule.дсфОбщегоНазначения" id="f9abea0d-bfa4-4ee3-9548-ae9de233548b" configVersion="1996ffefae5b27b1ec035a27b441bdcc229ded60"/>
@@ -76,9 +76,9 @@
 		<Metadata name="CommonModule.дсфОбщегоНазначенияКлиентСервер" id="dacb38ed-9ce6-4b1e-a51c-968029331029" configVersion="cf14dfdca7c23995c3fc122139d9865b67927348"/>
 		<Metadata name="CommonModule.дсфОбщегоНазначенияКлиентСервер.Module" id="dacb38ed-9ce6-4b1e-a51c-968029331029.0" configVersion="362d7dabe9905a9e63d41a8042876f8b3d270afc"/>
 		<Metadata name="CommonModule.дсфОбщегоНазначенияЯндексМаркет" id="f4a57eda-d472-4a2e-b28a-4985b8f048fb" configVersion="d453c7edfd8ad3e6816f1c6a25b668008555b722"/>
-		<Metadata name="CommonModule.дсфОбщегоНазначенияЯндексМаркет.Module" id="f4a57eda-d472-4a2e-b28a-4985b8f048fb.0" configVersion="d2297e871d257c9cac6de3660115749d374ca07e"/>
+		<Metadata name="CommonModule.дсфОбщегоНазначенияЯндексМаркет.Module" id="f4a57eda-d472-4a2e-b28a-4985b8f048fb.0" configVersion="5891b3354c6293694dfe9257102278dc84c40354"/>
 		<Metadata name="CommonModule.дсфПолучениеСведенийЯндексМаркет" id="013e21b2-66b5-4919-a877-c42e12c9f6e3" configVersion="5a3994a71ef0d6511dba381d157c197a4a080a98"/>
-		<Metadata name="CommonModule.дсфПолучениеСведенийЯндексМаркет.Module" id="013e21b2-66b5-4919-a877-c42e12c9f6e3.0" configVersion="250f0098b1f76135eb9246f3a8e45064fc763879"/>
+		<Metadata name="CommonModule.дсфПолучениеСведенийЯндексМаркет.Module" id="013e21b2-66b5-4919-a877-c42e12c9f6e3.0" configVersion="4d36c85bb2e307c383348c26ea0d6c9037dc836b"/>
 		<Metadata name="CommonModule.дсфПравилаОбработкиВходящихЗапросовАпи" id="3894e29a-9b2b-4c8c-bfed-daf9640f6970" configVersion="e2713b9209fe1993d8a3570adc2f9e63209af337"/>
 		<Metadata name="CommonModule.дсфПравилаОбработкиВходящихЗапросовАпи.Module" id="3894e29a-9b2b-4c8c-bfed-daf9640f6970.0" configVersion="dc17f4d58252f37b39fd0a2dfe416649be8ed08f"/>
 		<Metadata name="CommonModule.дсфСлужебныйАпи" id="88620eca-502d-419d-b6a7-46dd158a892d" configVersion="89114cb7e59f0480d1d23c14f09ab9168657782a"/>
@@ -86,20 +86,21 @@
 		<Metadata name="CommonModule.дсфСозданиеИзменениеДанныхАпи" id="3af50c9c-c0e2-424c-8a51-ab7614d7b759" configVersion="72ad1b41019e296c472250dbf2c9ac301af66a58"/>
 		<Metadata name="CommonModule.дсфСозданиеИзменениеДанныхАпи.Module" id="3af50c9c-c0e2-424c-8a51-ab7614d7b759.0" configVersion="c61946ecf564e47d4a0f736c60af280d12543df7"/>
 		<Metadata name="CommonModule.дсфСозданиеОбновлениеДанныхЯндексМаркет" id="ba2ab674-f0cf-48f8-a20a-664114f4f77f" configVersion="d3418390c3d8623e1c8e055e053797c9f2386d84"/>
-		<Metadata name="CommonModule.дсфСозданиеОбновлениеДанныхЯндексМаркет.Module" id="ba2ab674-f0cf-48f8-a20a-664114f4f77f.0" configVersion="4617d54037b8aa48400004f59e66b1400a01e262"/>
+		<Metadata name="CommonModule.дсфСозданиеОбновлениеДанныхЯндексМаркет.Module" id="ba2ab674-f0cf-48f8-a20a-664114f4f77f.0" configVersion="30f01f963af43fc5193a6130f976b9a7036bcf96"/>
 		<Metadata name="CommonModule.дсфСтатусыДокументовЯндексМаркет" id="81bd869f-f091-49e9-8ab2-b04ed3d671df" configVersion="8b54e9cbaf8520ad458c80b8d2a551cc9f737789"/>
 		<Metadata name="CommonModule.дсфСтатусыДокументовЯндексМаркет.Module" id="81bd869f-f091-49e9-8ab2-b04ed3d671df.0" configVersion="b9ce399928f2a94b5afb00adf721257a7bad1fcf"/>
 		<Metadata name="CommonModule.дсфСтатусыДокументовЯндексМаркетПовтИсп" id="b431d238-4000-4b89-b338-518e7ed6a5d9" configVersion="76f9d8008683414a0f52943aa4e599bf15e1d08c"/>
 		<Metadata name="CommonModule.дсфСтатусыДокументовЯндексМаркетПовтИсп.Module" id="b431d238-4000-4b89-b338-518e7ed6a5d9.0" configVersion="b9b1c78c9e62355e0d815865a908c2a7865129ec"/>
 		<Metadata name="CommonModule.дсфФормированиеОтветовЯндексМаркет" id="edac7c40-1c01-475c-a07b-541dd5d2fc59" configVersion="bce2e212e2e2b97e83703fc7c059667a5b341cc4"/>
-		<Metadata name="CommonModule.дсфФормированиеОтветовЯндексМаркет.Module" id="edac7c40-1c01-475c-a07b-541dd5d2fc59.0" configVersion="26bf549fed3340a2ed9b66621e1e46c3b4cb34ac"/>
+		<Metadata name="CommonModule.дсфФормированиеОтветовЯндексМаркет.Module" id="edac7c40-1c01-475c-a07b-541dd5d2fc59.0" configVersion="432d024e4d647325797f5d7e29b2ddc6de0665af"/>
 		<Metadata name="CommonPicture.дсфApi64" id="65fca305-4e40-4b03-90c2-e7e4dd163d83" configVersion="44a0820829316028f0abbda7a5434b9ee0166261"/>
 		<Metadata name="CommonPicture.дсфApi64.Picture" id="65fca305-4e40-4b03-90c2-e7e4dd163d83.0" configVersion="4b2cba16489abfdca2de28361b97441b97f14eb7"/>
-		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="df4637c3b9b4479a2aa22ed53905ddd814ce07c5"/>
+		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="cd99dd278fafdb192026b993513a2953c210439f"/>
 		<Metadata name="Constant.аргмСрокХраненияВходящихЗапросовА1" id="39160d0a-fddf-4295-8a5e-c4f7d8f2b610" configVersion="b769ecf427116aba0b2e1008baf6c9eeb454c05b"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияКоробов" id="ce1dbf4f-c82d-4d85-bb8b-f431c60817b9" configVersion="3009413a62cd81a3aeead21a1db732dd469ff461"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияШтук" id="475b2f8e-7814-4079-85a8-bc3e9addc8de" configVersion="e67110bccb415d3b509d3ba6a167d243b331610c"/>
 		<Metadata name="Constant.дсфИдентификаторСкладаЯндексМаркет" id="eb7c0d88-06d9-47d1-8614-fbf7e8132dea" configVersion="8c313b1ce1965d5ec165fc3ef56b5447e2cff29f"/>
+		<Metadata name="Constant.дсфОсновнойИдентификаторПоставщикаЯндексМаркет" id="9c3fd284-f9a2-4b11-be01-3774e1f3e1d7" configVersion="4fe961265bdc55e713c791943819d78a4a5e0b56"/>
 		<Metadata name="Constant.дсфОсновнойПоклажедательЯндексМаркет" id="e6d2652f-082e-4971-9ec2-ad19eee6660a" configVersion="7e1b8a948094938f095b0ae484499a19b3e91eed"/>
 		<Metadata name="Constant.дсфОсновнойПроцессПоступления" id="279b35f6-6543-4d30-a32a-827e6c7bf6e3" configVersion="1945bc14704a0173ae1bb6c160b311690c1075c0"/>
 		<Metadata name="Constant.дсфТипМестаХраненияДляКоробов" id="54f7ae89-49b5-4965-a4f9-9bbb71e03878" configVersion="36a27e5827ffe4d46dcae7ea6a421ec0ee08d548"/>
@@ -110,12 +111,26 @@
 		<Metadata name="DataProcessor.дсфПанельАдминистрирования.Command.РазделНастройкиВзаимодействия.CommandModule" id="bb0b0e23-2a06-4148-a23f-1e38d38bbd6d.2" configVersion="60ec54ddf6a34a12f88d222c77418171bd2edc76"/>
 		<Metadata name="DataProcessor.дсфПанельАдминистрирования.Form.РазделНастройкиВзаимодействия" id="6c533395-676c-47a6-98e5-5383e78c7a89" configVersion="6c7081985a2c8790a07897ffe8c7665cf0b38ddb"/>
 		<Metadata name="DataProcessor.дсфПанельАдминистрирования.Form.РазделНастройкиВзаимодействия.Form" id="6c533395-676c-47a6-98e5-5383e78c7a89.0" configVersion="fcd8b859d766b846d2af93d23eef4ecd291af7fe"/>
+		<Metadata name="Document.ЗаказНаОтгрузку" id="987063f3-2a40-45ef-8a2b-f8bc374d7c23" configVersion="b6c061a029951d57e46a52d11d10f64e22eab760"/>
 		<Metadata name="Document.ОжидаемоеПоступление" id="283fb43a-2971-44bd-9bf8-6ff73a9aa8e7" configVersion="b162f01ae6ca51688b36ec7853518276af31d3ae"/>
 		<Metadata name="Document.ПланОтгрузки" id="68bd4927-12a8-4d0d-a210-90f54a82d333" configVersion="9784ad108011841960fc0a6c591107e4d54216cc"/>
 		<Metadata name="Document.ПланПоступления" id="557ba16a-5293-4750-a09e-ab6da0bee437" configVersion="f07f2d96f6279833a9c833b9c3aadf7d9981b2aa">
 			<Metadata name="Document.ПланПоступления.Attribute.Комментарий" id="50085518-5e57-41d5-b049-4c34609f9e3e"/>
 		</Metadata>
-		<Metadata name="Document.дсфЗаявкаНаПриемку" id="5f58fd36-333c-40cb-acd9-00d99b5ba81a" configVersion="70922da21e9ea04b5d6822534b76ebb2178d20c4">
+		<Metadata name="Document.дсфЗаявкаНаОтгрузку" id="11a9c77e-0e9a-46bd-a687-4fbaa94cbf31" configVersion="51585ea4475e773d6268e95119995f1e0e9a3f0c">
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.ДатаОбновления" id="4e0cf8e0-b042-4875-b4d3-efba886ac9f3"/>
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.ДанныеЗаявкиВходящие" id="52f41874-e3e6-4dfc-a60d-2a5159797d32"/>
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.ТипОтправки" id="8769eee6-939a-4965-8461-7997dcbd604e"/>
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.Комментарий" id="8e278139-d6e2-4fb7-ab04-e3495112bf79"/>
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.ДанныеКурьераЗначенияПолей" id="9dde03cb-9076-4399-bc7d-8461a846e8cb"/>
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.ПериодОтправкиОкончание" id="b98237ff-c441-4d62-b6a6-2a1c7fb7f799"/>
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.ДанныеСкладаЗначенияПолей" id="c5842565-c84b-4149-843e-9018bcce92ff"/>
+			<Metadata name="Document.дсфЗаявкаНаОтгрузку.Attribute.ПериодОтправкиНачало" id="f1428131-8acd-4ebd-aa6e-5b6876847384"/>
+		</Metadata>
+		<Metadata name="Document.дсфЗаявкаНаОтгрузку.Form.ФормаДокумента" id="30032f38-a2e1-4910-b31e-8e8d3e69e0da" configVersion="d1b6f52f52b18c604778dd8f14254965c6fd40b3"/>
+		<Metadata name="Document.дсфЗаявкаНаОтгрузку.Form.ФормаДокумента.Form" id="30032f38-a2e1-4910-b31e-8e8d3e69e0da.0" configVersion="d8e0eba9b5baba9ad3dbfa4135739f675786d77a"/>
+		<Metadata name="Document.дсфЗаявкаНаОтгрузку.ObjectModule" id="11a9c77e-0e9a-46bd-a687-4fbaa94cbf31.0" configVersion="719ce8a1a503d77a3581dc7126163436b89b2add"/>
+		<Metadata name="Document.дсфЗаявкаНаПриемку" id="5f58fd36-333c-40cb-acd9-00d99b5ba81a" configVersion="5484fda5351237d5780c62a6f862649dbfd04fad">
 			<Metadata name="Document.дсфЗаявкаНаПриемку.Attribute.ДатаОбновления" id="35907b51-2144-4a32-a179-73f609f475b6"/>
 			<Metadata name="Document.дсфЗаявкаНаПриемку.Attribute.ДанныеЗаявкиВходящие" id="3ba98d91-9e6f-4699-8a5a-037464da90e5"/>
 			<Metadata name="Document.дсфЗаявкаНаПриемку.Attribute.ДанныеОтправителяГрузаЗначенияПолей" id="661304ab-6f7e-42ab-b4ed-5c51b1af86f9"/>
@@ -173,6 +188,10 @@
 			<Metadata name="Enum.дсфТипыИдентификаторовЯндексМаркет.EnumValue.ARTICLE" id="f939beca-fb7e-4cc7-bd62-a491059d49eb"/>
 			<Metadata name="Enum.дсфТипыИдентификаторовЯндексМаркет.EnumValue.BOX_ID" id="ff8f5e89-b525-469e-bf06-b3e9393f0a7b"/>
 		</Metadata>
+		<Metadata name="Enum.дсфТипыОтправкиЯндексМаркет" id="5dbde462-259f-4709-a297-ed49707cc360" configVersion="e2e7e2ae69692ca8f8377b987da7541b1b1bf2aa">
+			<Metadata name="Enum.дсфТипыОтправкиЯндексМаркет.EnumValue.СПартнерскогоСклада" id="a735838b-16be-4db6-8fb5-2925ce819f38"/>
+			<Metadata name="Enum.дсфТипыОтправкиЯндексМаркет.EnumValue.НаСкладМаркетаFBYPlus" id="dd79d316-c261-4b79-a648-9e55f6637772"/>
+		</Metadata>
 		<Metadata name="Enum.дсфТипыПриемкиЯндексМаркет" id="6344e4dd-5248-4562-8348-c76612cf1cab" configVersion="c93fb98b540ea60a8b38ad6a580eea64ab66b1ec">
 			<Metadata name="Enum.дсфТипыПриемкиЯндексМаркет.EnumValue.НаСкладМаркетаFBYPlus" id="559af920-30ad-401e-b08e-d92d388bba6b"/>
 			<Metadata name="Enum.дсфТипыПриемкиЯндексМаркет.EnumValue.НаСкладМаркетаFBY" id="70cc7345-0612-499b-9409-87855d37d9dd"/>
@@ -206,7 +225,7 @@
 			<Metadata name="HTTPService.дсфFulfillmentPublicApi.URLTemplate.Goods.Method.POST" id="e9846e3b-eb3a-4d44-b404-03bf44602975"/>
 		</Metadata>
 		<Metadata name="HTTPService.дсфFulfillmentPublicApi.Module" id="1cd1df3d-cc0e-4cf5-b619-864d456a6abc.0" configVersion="bc6a52e068997dc13791b028eafd69058c4496dd"/>
-		<Metadata name="HTTPService.дсфFulfillmentYandexMarket" id="83b9eea9-bae8-4e00-ac8f-c5df696e74af" configVersion="5f4befa0b6f20f36acdfeab60e56159494997ea9">
+		<Metadata name="HTTPService.дсфFulfillmentYandexMarket" id="83b9eea9-bae8-4e00-ac8f-c5df696e74af" configVersion="f878f39eaa1b8e9fd04ce1e986b05609405f5ab7">
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getInboundsStatus" id="0fbf1883-82ce-49d3-981c-04a76fbcc444"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getInbound.Method.POST" id="1355ea50-f428-4c2b-a659-1bc9c13979ea"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.putInboundRegistry.Method.POST" id="1aaa41b8-b09d-4d1f-8d09-8bd48235fa16"/>
@@ -216,15 +235,17 @@
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getInboundHistory" id="5bbf642e-9e53-455d-9a8c-663212d7d0a6"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.Health.Method.GET" id="613d302e-05ce-46f7-8479-398def521577"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.putInbound" id="7a6f0cca-b6be-42d2-a5e9-98c4c78ec2a7"/>
+			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.putOutbound.Method.POST" id="7faaf3a5-f000-4ae7-9140-7f0f544db5a3"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.Health" id="8c285bb5-f7c4-49e7-9522-f9e3ac4c15b1"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getInbound" id="920c113d-bd23-4098-9c8d-684ff71a3b78"/>
+			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.putOutbound" id="a3993534-1d5f-4eb5-a8bd-399e36faa6c8"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.SendData.Method.POST" id="ba652f77-a384-4534-874f-2f5a927cdb93"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getStocks.Method.POST" id="d2f55553-4aa8-4a41-8a49-959f42b747df"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.putInbound.Method.POST" id="edececd5-a4c1-49ce-8789-ea013358ea29"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.putInboundRegistry" id="f0ca9860-b207-40cc-a7d8-88bf76168c80"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getInboundsStatus.Method.POST" id="f4bba73c-89d8-429e-bbd5-2c89b4a1c2c7"/>
 		</Metadata>
-		<Metadata name="HTTPService.дсфFulfillmentYandexMarket.Module" id="83b9eea9-bae8-4e00-ac8f-c5df696e74af.0" configVersion="096679479ebb7fe8a0adb289f0c0d10190381f8a"/>
+		<Metadata name="HTTPService.дсфFulfillmentYandexMarket.Module" id="83b9eea9-bae8-4e00-ac8f-c5df696e74af.0" configVersion="0c9a8555347daddcfcbf426760c3d03fe104a404"/>
 		<Metadata name="InformationRegister.СтрокиПлановОтгрузки" id="9c76a6d1-edf5-4aae-b944-5517fd42260f" configVersion="5d23db1d151591eea111bf84f5b32a2b58e9dd94"/>
 		<Metadata name="InformationRegister.СтрокиПлановОтгрузкиГрузовыхМест" id="158148e2-7bed-4536-8dc4-41f4ca55a251" configVersion="c7380a9f7e18524accb7de82c3cfe35252b026ef"/>
 		<Metadata name="InformationRegister.СтрокиПлановПоступления" id="d1f710b4-b7f6-4d2c-b1da-dd1f51886e2c" configVersion="7e5c5aa05b336f7cc3cb7536c3f68ea1ad28f7eb"/>
@@ -256,6 +277,18 @@
 		<Metadata name="InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Form.ФормаСписка" id="4919a573-8010-4ccd-a682-3b2e7a0b6670" configVersion="48a140d67d93abbfed3bdb988b08e4a9fa78e124"/>
 		<Metadata name="InformationRegister.аргмЖурналВходящихHttpЗапросовА1.Form.ФормаСписка.Form" id="4919a573-8010-4ccd-a682-3b2e7a0b6670.0" configVersion="2a7c92cb0fec9b897da517b478e3704101ea2f5d"/>
 		<Metadata name="InformationRegister.аргмЖурналВходящихHttpЗапросовА1.ManagerModule" id="9e601216-48fe-45cf-86d3-dad7357344f4.2" configVersion="e25290284d264bf6e07a53cd51038406db203064"/>
+		<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет" id="779499ce-579b-423b-b5d0-916b742bbf3e" configVersion="bd0900c93d8648178ce881ed849b5ac922eadf43">
+			<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Resource.ДатаРеестра" id="0100fcd0-542f-4a2a-b790-20168b3c8f74"/>
+			<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Attribute.ДатаИзменения" id="23589d81-b295-4466-a0f0-582d9a83eccf"/>
+			<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Resource.ТипРеестра" id="2bf17081-5f89-432c-b780-e0a1d07870de"/>
+			<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Attribute.ДанныеРеестра" id="4de14d09-0a5f-4a57-ae65-8f5acadae892"/>
+			<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Dimension.ЗаявкаНаОтгрузку" id="5e18e0cd-4652-4324-9c94-54229a6a2dcd"/>
+			<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Resource.ТипРеестраКод" id="ba9600e5-f054-4df8-8c95-c45c9d99b2ab"/>
+			<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Dimension.ИдентификаторРеестра" id="e9590d0e-e0db-4725-98d4-644277dac687"/>
+		</Metadata>
+		<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Form.ФормаЗаписи" id="b4b23929-0aa1-4177-b866-ebddfd40ca71" configVersion="f06250b2236b482606acf20959a0bfdd697d5c48"/>
+		<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.Form.ФормаЗаписи.Form" id="b4b23929-0aa1-4177-b866-ebddfd40ca71.0" configVersion="958e1ec558d34251c54c263fcda7dd573f30e4d2"/>
+		<Metadata name="InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет.ManagerModule" id="779499ce-579b-423b-b5d0-916b742bbf3e.2" configVersion="af29b434eaa35c3f806fffa9cb78ccb73db1fc3a"/>
 		<Metadata name="InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет" id="6a8f3365-73a8-4d3f-a702-c6de68763e3a" configVersion="d10bba3f3479908f7bb1499105152d387c1b56dc">
 			<Metadata name="InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет.Dimension.ЗаявкаНаПриемку" id="17c4d6ef-1764-457f-a32e-a36a1813b9f0"/>
 			<Metadata name="InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет.Attribute.ДатаИзменения" id="49091269-7a2d-40c2-b24a-e72f5cc37f15"/>
@@ -268,12 +301,12 @@
 		<Metadata name="InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет.Form.ФормаЗаписи" id="4dc560a5-dadc-4819-94b5-e9062d89d66a" configVersion="df4a7c6c88870d7ebb249ee18f7b207185a6ad16"/>
 		<Metadata name="InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет.Form.ФормаЗаписи.Form" id="4dc560a5-dadc-4819-94b5-e9062d89d66a.0" configVersion="21b72f90ee5ffe6ea1162aba1d221efbdcb2bb73"/>
 		<Metadata name="InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет.ManagerModule" id="6a8f3365-73a8-4d3f-a702-c6de68763e3a.2" configVersion="af29b434eaa35c3f806fffa9cb78ccb73db1fc3a"/>
-		<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет" id="aefa1f4b-3917-43c1-8adf-81d260aa375f" configVersion="b5dbe28844abce38d71d2c6844c3ff1b9734e874">
+		<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет" id="aefa1f4b-3917-43c1-8adf-81d260aa375f" configVersion="9ad79d0bfcb1749b17f62113905ee3e22c594cf4">
 			<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет.Dimension.Идентификатор" id="199ab0ed-9f3c-45ce-bee9-0eecc5c1937e"/>
 			<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет.Dimension.Ссылка" id="4abf889c-e7e6-4283-9538-2310f54eb147"/>
 			<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет.Attribute.ДатаРегистрации" id="82c5dc97-acc9-4109-ad2f-9bbd0bf23f96"/>
 		</Metadata>
-		<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет.ManagerModule" id="aefa1f4b-3917-43c1-8adf-81d260aa375f.2" configVersion="38ee542924b96d34e08843d3b4b1867d9f6c5e70"/>
+		<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет.ManagerModule" id="aefa1f4b-3917-43c1-8adf-81d260aa375f.2" configVersion="1d99622b2ddd71f1ea33fbbcefbd51b334353427"/>
 		<Metadata name="InformationRegister.дсфИдентификаторыЯндексМаркет.RecordSetModule" id="aefa1f4b-3917-43c1-8adf-81d260aa375f.1" configVersion="2c74ec6c4075124c26c156b770916cd90a2f08d4"/>
 		<Metadata name="InformationRegister.дсфНастройкиДоступаКАпи" id="5a0a1a43-2965-48d2-8dd2-f18de53c6501" configVersion="63c33f2b31a9a8134e88098af61eb9c97235d2cc">
 			<Metadata name="InformationRegister.дсфНастройкиДоступаКАпи.Resource.Пользователь" id="16918d26-96d9-42df-959a-634a3be1acb9"/>
@@ -283,6 +316,13 @@
 			<Metadata name="InformationRegister.дсфНастройкиДоступаКАпи.Resource.ГруппаНоменклатуры" id="c752aa31-0315-45f4-b9a7-72c8115fa4e0"/>
 		</Metadata>
 		<Metadata name="InformationRegister.дсфНастройкиДоступаКАпи.ManagerModule" id="5a0a1a43-2965-48d2-8dd2-f18de53c6501.2" configVersion="10e9d08296bfc185cc459d7e5f7e95477b0a1ec2"/>
+		<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет" id="75aeb394-6522-487c-934f-09951442d5a2" configVersion="8c4f4dc2369ba03ff6c8d861b2b5335c41231480">
+			<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет.Resource.ЗаказНаОтгрузку" id="55d34d3a-e099-46e2-9eca-696512a11765"/>
+			<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет.Dimension.ЗаявкаНаОтгрузку" id="a223d962-8eed-4cb3-bf46-41047f3b1589"/>
+			<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет.Attribute.ДатаИзменения" id="bec3e543-0ec2-4799-8f34-9a29adf99759"/>
+			<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет.Resource.ПланОтгрузки" id="f9b0b4cb-f545-48a6-b3e2-e698d415174e"/>
+		</Metadata>
+		<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет.ManagerModule" id="75aeb394-6522-487c-934f-09951442d5a2.2" configVersion="e84806505de1cefc1bd41bc2c60dfef9861ec00a"/>
 		<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" id="8f6879f8-4525-4e77-8936-d3a432f35efd" configVersion="05cd6d13d838d4e245625526fdfdef7b8c4d24ae">
 			<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет.Attribute.ДатаИзменения" id="22f9f1aa-20cf-46f5-8a00-b6ef96aaf964"/>
 			<Metadata name="InformationRegister.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет.Resource.ПланПоступления" id="8be1e6b8-bdbb-4592-a4be-5307b86bd53a"/>
@@ -302,7 +342,7 @@
 		<Metadata name="InformationRegister.дсфСоответствиеСостоянийОбъектовХраненияКодамЯндексМаркет.RecordSetModule" id="71d43353-1f1a-423d-89a5-050e68da4ba1.1" configVersion="36d51b8e0cd608b115f15de781a8539d0011f50a"/>
 		<Metadata name="Language.Русский" id="54266175-4589-416a-b538-2d16c9960968" configVersion="6362d2939e5eb32e334cc5a7e0816127e2b4c734"/>
 		<Metadata name="Role.дсфИспользованиеHttpСервисов" id="87c0f3c9-4911-4af6-aa25-ea6c1f4fcc02" configVersion="3dfe041191829581bea55d9da1a187869a143327"/>
-		<Metadata name="Role.дсфИспользованиеHttpСервисов.Rights" id="87c0f3c9-4911-4af6-aa25-ea6c1f4fcc02.0" configVersion="c33abed36b055e99d4227c8bf5f8ea9f15a9de9f"/>
+		<Metadata name="Role.дсфИспользованиеHttpСервисов.Rights" id="87c0f3c9-4911-4af6-aa25-ea6c1f4fcc02.0" configVersion="d54329ff0229a4aa71079f24835719a7e5fba7b6"/>
 		<Metadata name="Role.дсфОсновнаяРоль" id="5a6e993c-c52c-4db0-82ef-88f0fe6dd93c" configVersion="3033c84bec72ed7248ab42dd055c7afbe7590166"/>
 		<Metadata name="Role.дсфОсновнаяРоль.Rights" id="5a6e993c-c52c-4db0-82ef-88f0fe6dd93c.0" configVersion="dc30087f9493ccb98c391379be2608d59583892c"/>
 		<Metadata name="ScheduledJob.аргмОбработкаАсинхронныхЗапросовА1" id="f6086f14-d021-4cbe-99bc-f3a9f18fb999" configVersion="8fb5106c68bf9bda5f2028a1cb5bfac80427752f"/>
@@ -313,11 +353,11 @@
 		<Metadata name="Subsystem.дсфФулфилмент.CommandInterface" id="10cb489b-802f-4d02-a044-1832131a371d.1" configVersion="e8b6462744e11087436380807b65f8514475a983"/>
 		<Metadata name="Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментОбщийАпи" id="3221205a-321d-4a67-9b5c-fc6ce42dd3f4" configVersion="e6bc8d0f503d166dddd6aea22694fd8299f4224e"/>
 		<Metadata name="Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментОбщийАпи.CommandInterface" id="3221205a-321d-4a67-9b5c-fc6ce42dd3f4.1" configVersion="fdaec039eea90396e8275a4185f01ff2ce9f09af"/>
-		<Metadata name="Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментЯндексМаркет" id="3d1bd153-a469-43ee-8b09-92e2895a7d38" configVersion="e9d9347cd4aedbcd3c725259a94913c2e38119c7"/>
-		<Metadata name="Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментЯндексМаркет.CommandInterface" id="3d1bd153-a469-43ee-8b09-92e2895a7d38.1" configVersion="72d80052646b7862be4db9cd95613eeae6fb02a4"/>
+		<Metadata name="Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментЯндексМаркет" id="3d1bd153-a469-43ee-8b09-92e2895a7d38" configVersion="4077ded8e299d4c84204bf175dad41e1eb284d9a"/>
+		<Metadata name="Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментЯндексМаркет.CommandInterface" id="3d1bd153-a469-43ee-8b09-92e2895a7d38.1" configVersion="bfeed88fc6c10681b0d2907bf607f8fadfee0ce4"/>
 		<Metadata name="Subsystem.дсфФулфилментСлужебная" id="0240b229-68bf-4db2-9191-6061826c7f55" configVersion="4d7f08483ea614603a56e3c3e3a86b2e2fa92dd5"/>
-		<Metadata name="Subsystem.дсфЯндексМаркетСлужебная" id="3f52b991-e6ef-4664-9723-357a99e3025e" configVersion="996fa27a54514631fd4965635401544e358aa71b"/>
+		<Metadata name="Subsystem.дсфЯндексМаркетСлужебная" id="3f52b991-e6ef-4664-9723-357a99e3025e" configVersion="ee3cbeb9a91b5d8358ee600e07fc6eb268ced23b"/>
 		<Metadata name="XDTOPackage.дсфFulfillmentYandexMarket" id="e0a91ff8-f3a6-4979-a35e-69bb1fa33766" configVersion="31eecb29c8653bdfec4cb7265f713f4aefad1a26"/>
-		<Metadata name="XDTOPackage.дсфFulfillmentYandexMarket.Package" id="e0a91ff8-f3a6-4979-a35e-69bb1fa33766.0" configVersion="d20b8bd9a637d2783c35c8977aa22fc89c9c22c4"/>
+		<Metadata name="XDTOPackage.дсфFulfillmentYandexMarket.Package" id="e0a91ff8-f3a6-4979-a35e-69bb1fa33766.0" configVersion="521f2f5b337f6a4ee64b90c6b2a0243e47b4f833"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

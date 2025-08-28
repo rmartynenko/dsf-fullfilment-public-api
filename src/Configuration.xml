@@ -62,7 +62,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.дсфОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ТОО "ArgumentOne"</Vendor>
-			<Version>1.0.1.5</Version>
+			<Version>1.0.1.12</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -122,13 +122,14 @@
 			<ScheduledJob>аргмОбработкаАсинхронныхЗапросовА1</ScheduledJob>
 			<ScheduledJob>аргмУдалениеЗаписейЖурналаВходящихЗапросовА1</ScheduledJob>
 			<Constant>аргмСрокХраненияВходящихЗапросовА1</Constant>
+			<Constant>дсфЕдиницаИзмеренияКоробов</Constant>
+			<Constant>дсфЕдиницаИзмеренияШтук</Constant>
 			<Constant>дсфИдентификаторСкладаЯндексМаркет</Constant>
+			<Constant>дсфОсновнойИдентификаторПоставщикаЯндексМаркет</Constant>
 			<Constant>дсфОсновнойПоклажедательЯндексМаркет</Constant>
 			<Constant>дсфОсновнойПроцессПоступления</Constant>
 			<Constant>дсфТипМестаХраненияДляКоробов</Constant>
 			<Constant>дсфТипМестаХраненияДляПалет</Constant>
-			<Constant>дсфЕдиницаИзмеренияШтук</Constant>
-			<Constant>дсфЕдиницаИзмеренияКоробов</Constant>
 			<Catalog>АдресаДоставки</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Catalog>ВидыОбъектовХранения</Catalog>
@@ -149,14 +150,17 @@
 			<Catalog>ТорговыеМарки</Catalog>
 			<Catalog>Упаковки</Catalog>
 			<Catalog>УпаковкиНоменклатуры</Catalog>
+			<Document>дсфЗаявкаНаОтгрузку</Document>
 			<Document>дсфЗаявкаНаПриемку</Document>
-			<Document>ПланПоступления</Document>
-			<Document>ПланОтгрузки</Document>
 			<Document>ОжидаемоеПоступление</Document>
+			<Document>ПланОтгрузки</Document>
+			<Document>ПланПоступления</Document>
+			<Document>ЗаказНаОтгрузку</Document>
 			<Enum>аргмСостоянияВходящихЗапросовА1</Enum>
 			<Enum>ВидыУчетаУпаковок</Enum>
 			<Enum>дсфСтатусыЕдиницТовараЯндексМаркет</Enum>
 			<Enum>дсфТипыИдентификаторовЯндексМаркет</Enum>
+			<Enum>дсфТипыОтправкиЯндексМаркет</Enum>
 			<Enum>дсфТипыПриемкиЯндексМаркет</Enum>
 			<Enum>дсфТипыРеестровЯндексМаркет</Enum>
 			<Enum>дсфТипыСтоковЯндексМаркет</Enum>
@@ -167,18 +171,20 @@
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<DataProcessor>дсфПанельАдминистрирования</DataProcessor>
 			<InformationRegister>аргмЖурналВходящихHttpЗапросовА1</InformationRegister>
+			<InformationRegister>дсфВерсииРеестровОтгрузкиЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфВерсииРеестровПриемкиЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфИдентификаторыЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфНастройкиДоступаКАпи</InformationRegister>
+			<InformationRegister>дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфСоответствиеСостоянийОбъектовХраненияКодамЯндексМаркет</InformationRegister>
+			<InformationRegister>СтрокиПлановОтгрузки</InformationRegister>
+			<InformationRegister>СтрокиПлановОтгрузкиГрузовыхМест</InformationRegister>
 			<InformationRegister>СтрокиПлановПоступления</InformationRegister>
 			<InformationRegister>СтрокиПлановПоступленияГрузовыхМест</InformationRegister>
 			<InformationRegister>ШтрихкодыНоменклатуры</InformationRegister>
 			<InformationRegister>ШтрихкодыОбъектовХранения</InformationRegister>
-			<InformationRegister>СтрокиПлановОтгрузки</InformationRegister>
-			<InformationRegister>СтрокиПлановОтгрузкиГрузовыхМест</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

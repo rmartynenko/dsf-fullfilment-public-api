@@ -20,6 +20,9 @@
 		<Command name="Document.дсфЗаявкаНаПриемку.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
+		<Command name="Document.дсфЗаявкаНаОтгрузку.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
 		<Command name="InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯндексМаркет.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>

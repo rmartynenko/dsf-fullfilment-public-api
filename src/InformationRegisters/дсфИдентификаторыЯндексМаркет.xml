@@ -164,6 +164,7 @@
 					</Synonym>
 					<Comment/>
 					<Type>
+						<v8:Type>cfg:DocumentRef.дсфЗаявкаНаОтгрузку</v8:Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПланОтгрузки</v8:Type>
 						<v8:Type>cfg:DocumentRef.ПланПоступления</v8:Type>
