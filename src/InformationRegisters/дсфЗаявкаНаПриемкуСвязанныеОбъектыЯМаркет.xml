@@ -2,37 +2,37 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<InformationRegister uuid="8f6879f8-4525-4e77-8936-d3a432f35efd">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет" category="Record">
 				<xr:TypeId>0871684a-243f-4e49-b432-5dfbba53e1db</xr:TypeId>
 				<xr:ValueId>78e6e516-617f-4948-af73-b12935750878</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет" category="Manager">
 				<xr:TypeId>2d4b76df-706b-4435-a3a0-de555764161e</xr:TypeId>
 				<xr:ValueId>02ddab07-423d-45a8-85ce-b888058125b9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет" category="Selection">
 				<xr:TypeId>76dc441e-2470-427c-ba90-910d60653b92</xr:TypeId>
 				<xr:ValueId>ef6ae5ba-fb9d-4a04-b5c4-9eeb0d04135a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" category="List">
+			<xr:GeneratedType name="InformationRegisterList.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет" category="List">
 				<xr:TypeId>1e8f7e76-38cf-47bb-bf93-40434f6db70b</xr:TypeId>
 				<xr:ValueId>46fecb52-6726-4a70-9303-cbdf8dbf6076</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет" category="RecordSet">
 				<xr:TypeId>ab28675d-8dd4-4ead-87ac-99ee787977c1</xr:TypeId>
 				<xr:ValueId>62868f84-fe91-4e93-b0e6-4f97441d6369</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет" category="RecordKey">
 				<xr:TypeId>98d129fa-c2cd-4463-926d-9649fabb0fb5</xr:TypeId>
 				<xr:ValueId>72883be4-1033-4803-802a-28dff41667b6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет" category="RecordManager">
 				<xr:TypeId>2bdfe020-ec08-47e2-b779-fb85e9892a30</xr:TypeId>
 				<xr:ValueId>c6cec721-eaa7-4a6e-a413-61eaa512330b</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет</Name>
+			<Name>дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

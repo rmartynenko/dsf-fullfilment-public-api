@@ -277,6 +277,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.дсфОсновнойПроцессОтгрузки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.дсфЗаявкаНаПриемку</name>
 		<right>
 			<name>Read</name>
@@ -358,7 +365,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет</name>
+		<name>InformationRegister.дсфЗаявкаНаОтгрузкуСвязанныеОбъектыЯМаркет</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -442,7 +449,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет</name>
+		<name>InformationRegister.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -566,7 +573,7 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯндексМаркет</name>
+		<name>InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯМаркет</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

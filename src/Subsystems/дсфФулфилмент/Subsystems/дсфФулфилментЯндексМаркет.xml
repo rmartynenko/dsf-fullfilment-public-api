@@ -16,7 +16,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯндексМаркет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯМаркет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.дсфСоответствиеСостоянийОбъектовХраненияКодамЯндексМаркет</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.дсфЗаявкаНаПриемку</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.дсфПанельАдминистрирования</xr:Item>

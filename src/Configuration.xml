@@ -62,7 +62,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.дсфОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ТОО "ArgumentOne"</Vendor>
-			<Version>1.0.1.12</Version>
+			<Version>1.0.1.15</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -119,6 +119,7 @@
 			<HTTPService>дсфFulfillmentYandexMarket</HTTPService>
 			<HTTPService>дсфFulfillmentPublicApi</HTTPService>
 			<EventSubscription>дсфОжидаемоеПоступлениеПриЗаписи</EventSubscription>
+			<EventSubscription>дсфЗаказНаОтгрузкуПриЗаписи</EventSubscription>
 			<ScheduledJob>аргмОбработкаАсинхронныхЗапросовА1</ScheduledJob>
 			<ScheduledJob>аргмУдалениеЗаписейЖурналаВходящихЗапросовА1</ScheduledJob>
 			<Constant>аргмСрокХраненияВходящихЗапросовА1</Constant>
@@ -127,6 +128,7 @@
 			<Constant>дсфИдентификаторСкладаЯндексМаркет</Constant>
 			<Constant>дсфОсновнойИдентификаторПоставщикаЯндексМаркет</Constant>
 			<Constant>дсфОсновнойПоклажедательЯндексМаркет</Constant>
+			<Constant>дсфОсновнойПроцессОтгрузки</Constant>
 			<Constant>дсфОсновнойПроцессПоступления</Constant>
 			<Constant>дсфТипМестаХраненияДляКоробов</Constant>
 			<Constant>дсфТипМестаХраненияДляПалет</Constant>
@@ -142,6 +144,7 @@
 			<Catalog>Партии</Catalog>
 			<Catalog>ПартииНоменклатуры</Catalog>
 			<Catalog>Пользователи</Catalog>
+			<Catalog>ПроцессыОтгрузки</Catalog>
 			<Catalog>ПроцессыПоступления</Catalog>
 			<Catalog>СостоянияОбъектовХранения</Catalog>
 			<Catalog>СтатусыДокументов</Catalog>
@@ -152,10 +155,10 @@
 			<Catalog>УпаковкиНоменклатуры</Catalog>
 			<Document>дсфЗаявкаНаОтгрузку</Document>
 			<Document>дсфЗаявкаНаПриемку</Document>
+			<Document>ЗаказНаОтгрузку</Document>
 			<Document>ОжидаемоеПоступление</Document>
 			<Document>ПланОтгрузки</Document>
 			<Document>ПланПоступления</Document>
-			<Document>ЗаказНаОтгрузку</Document>
 			<Enum>аргмСостоянияВходящихЗапросовА1</Enum>
 			<Enum>ВидыУчетаУпаковок</Enum>
 			<Enum>дсфСтатусыЕдиницТовараЯндексМаркет</Enum>
@@ -175,9 +178,9 @@
 			<InformationRegister>дсфВерсииРеестровПриемкиЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфИдентификаторыЯндексМаркет</InformationRegister>
 			<InformationRegister>дсфНастройкиДоступаКАпи</InformationRegister>
-			<InformationRegister>дсфСвязанныеОбъектыЗаявкаНаОтгрузкуЯндексМаркет</InformationRegister>
-			<InformationRegister>дсфСвязанныеОбъектыЗаявкаНаПриемкуЯндексМаркет</InformationRegister>
-			<InformationRegister>дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯндексМаркет</InformationRegister>
+			<InformationRegister>дсфЗаявкаНаОтгрузкуСвязанныеОбъектыЯМаркет</InformationRegister>
+			<InformationRegister>дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет</InformationRegister>
+			<InformationRegister>дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯМаркет</InformationRegister>
 			<InformationRegister>дсфСоответствиеСостоянийОбъектовХраненияКодамЯндексМаркет</InformationRegister>
 			<InformationRegister>СтрокиПлановОтгрузки</InformationRegister>
 			<InformationRegister>СтрокиПлановОтгрузкиГрузовыхМест</InformationRegister>

@@ -276,6 +276,122 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="3a4cc096-de21-432b-a60f-fa8dce1b7f2a">
+				<Properties>
+					<Name>putOutboundRegistry</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Put outbound registry</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/outbounds/registries</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="c56a3ebe-7564-45e0-97d0-afb663a21bd9">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>putOutboundRegistryPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="80dd2ee6-0ae1-4b33-ae00-08207c38d8f4">
+				<Properties>
+					<Name>getOutboundsStatus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус отгрузки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/outbounds/statuses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="0245ff07-017f-4f03-874e-98ae19a6ecea">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getOutboundsStatusPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="b66c04c9-14dd-4f56-861f-88de92043979">
+				<Properties>
+					<Name>getOutboundHistory</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>История статусов заявки на отгрузку</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/outbounds/statuses/history</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="5d0dd4a5-033a-4da1-8bbb-4b557fa86005">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getOutboundHistoryPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="200d0231-665b-4ec8-9a29-2ceda31c7968">
+				<Properties>
+					<Name>getOutbound</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получение деталей приёмки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/outbounds/details</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="55b03476-29f2-4302-ae06-674ff1951f83">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getOutboundPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>

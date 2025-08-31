@@ -108,7 +108,7 @@
 			</EnumValue>
 			<EnumValue uuid="dd79d316-c261-4b79-a648-9e55f6637772">
 				<Properties>
-					<Name>НаСкладМаркетаFBYPlus</Name>
+					<Name>СписываютсяПриИнвентаризации</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -116,6 +116,18 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Товары списываются при инвентаризации</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6eb7ce8b-8e63-410b-9537-fb58d868f8e3">
+				<Properties>
+					<Name>ПеремещениеНеСвязанноеСЗаказами</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3 - Товары отправляются с одного склада на другой</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Товары отправляются с одного склада Маркета на другой (перемещение товаров, не связанное с заказом на Маркете).</Comment>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

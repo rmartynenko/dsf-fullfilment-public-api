@@ -23,7 +23,7 @@
 		<Command name="Document.дсфЗаявкаНаОтгрузку.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
-		<Command name="InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯндексМаркет.StandardCommand.OpenList">
+		<Command name="InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯМаркет.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="InformationRegister.дсфСоответствиеСостоянийОбъектовХраненияКодамЯндексМаркет.StandardCommand.OpenList">
