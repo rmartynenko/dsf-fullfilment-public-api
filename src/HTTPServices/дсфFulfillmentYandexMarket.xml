@@ -83,7 +83,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/inbounds</Template>
+					<Template>/api/v1/inbounds</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="edececd5-a4c1-49ce-8789-ea013358ea29">
@@ -131,17 +131,46 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="ac2103d2-d9d7-42ae-ae7f-2d9867db7535">
+				<Properties>
+					<Name>getInboundStatus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус приемки (v1)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/v1/inbounds/statuses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="b2cb5d19-f32f-498b-a88a-38ad5aac41c2">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getInboundStatusPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 			<URLTemplate uuid="0fbf1883-82ce-49d3-981c-04a76fbcc444">
 				<Properties>
 					<Name>getInboundsStatus</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус приемки</v8:content>
+							<v8:content>Статус приемки (v2)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/inbounds/statuses</Template>
+					<Template>/api/v2/inbounds/statuses</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="f4bba73c-89d8-429e-bbd5-2c89b4a1c2c7">
@@ -155,7 +184,36 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
-							<Handler>getInboundsStatusPOST</Handler>
+							<Handler>getInboundsStatusPOST_v2</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="93a7f94f-46b8-4223-b415-196aea22be66">
+				<Properties>
+					<Name>getInboundStatusHistory</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус приемки (v1)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/v1/inbounds/statuses/history</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="93e13851-d55c-4010-aaac-0cd4a459984a">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getInboundStatusHistoryPOST</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
@@ -170,7 +228,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/inbounds/statuses/history</Template>
+					<Template>/api/v2/inbounds/statuses/history</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="4d73d2c4-35ac-4b6c-84a2-5683c21a4ae3">
@@ -184,7 +242,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
-							<Handler>getInboundHistoryPOST</Handler>
+							<Handler>getInboundHistoryPOST_v2</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
@@ -199,7 +257,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Запрос позволяет Маркету получить стоки по товарам</Comment>
-					<Template>/api/stocks</Template>
+					<Template>/api/v1/stocks</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="d2f55553-4aa8-4a41-8a49-959f42b747df">
@@ -257,7 +315,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/outbounds</Template>
+					<Template>/api/v1/outbounds</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="7faaf3a5-f000-4ae7-9140-7f0f544db5a3">
@@ -305,17 +363,46 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="4147aaae-d445-49e0-9eb0-53c1cd06d447">
+				<Properties>
+					<Name>getOutboundStatus</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус отгрузки (v1)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/v1/outbounds/statuses</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="876a00ce-77a9-47e3-bccd-ff43c7752aa8">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getOutboundStatusPOST</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 			<URLTemplate uuid="80dd2ee6-0ae1-4b33-ae00-08207c38d8f4">
 				<Properties>
 					<Name>getOutboundsStatus</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Статус отгрузки</v8:content>
+							<v8:content>Статус отгрузки (v2)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/outbounds/statuses</Template>
+					<Template>/api/v2/outbounds/statuses</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="0245ff07-017f-4f03-874e-98ae19a6ecea">
@@ -329,7 +416,36 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
-							<Handler>getOutboundsStatusPOST</Handler>
+							<Handler>getOutboundsStatusPOST_v2</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
+			<URLTemplate uuid="ae680d3d-9069-4d12-ab41-18b5da2ecfd0">
+				<Properties>
+					<Name>getOutboundStatusHistory</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>История статусов заявки на отгрузку, v1</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/api/v1/outbounds/statuses/history</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="efb9a56b-9c89-40d4-bb1b-cd723b56d591">
+						<Properties>
+							<Name>POST</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>POST</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>POST</HTTPMethod>
+							<Handler>getOutboundStatusHistoryPOST</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
@@ -340,11 +456,11 @@
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>История статусов заявки на отгрузку</v8:content>
+							<v8:content>История статусов заявки на отгрузку, v2</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/outbounds/statuses/history</Template>
+					<Template>/api/v2/outbounds/statuses/history</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="5d0dd4a5-033a-4da1-8bbb-4b557fa86005">
@@ -358,7 +474,7 @@
 							</Synonym>
 							<Comment/>
 							<HTTPMethod>POST</HTTPMethod>
-							<Handler>getOutboundHistoryPOST</Handler>
+							<Handler>getOutboundHistoryPOST_v2</Handler>
 						</Properties>
 					</Method>
 				</ChildObjects>
@@ -373,7 +489,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/outbounds/details</Template>
+					<Template>/api/v1/outbounds/details</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="55b03476-29f2-4302-ae06-674ff1951f83">

@@ -194,20 +194,18 @@
 		
 	ИначеЕсли ТипЗапроса = "putOutboundRegistry" Тогда
 		ОтветXdto["registryId"] = СодержимоеОтвета;
-		
-	ИначеЕсли ТипЗапроса = "getOutboundsStatus" Тогда
+
+	ИначеЕсли ТипЗапроса = "getOutboundStatus" Тогда // api v1
+		ОтветXdto["outboundStatuses"] = СодержимоеОтвета;
+	
+	ИначеЕсли ТипЗапроса = "getOutboundsStatus" Тогда // api v2
 		ОтветXdto["outboundsStatus"] = СодержимоеОтвета;
 		
-	ИначеЕсли ТипЗапроса = "getOutboundHistory" Тогда
-		// историю статусов пишем (почему-то) сразу в Response, без собственного узла,
-		// но в содержимом ответа придет OutboundStatusHistories - Список XDTO, нужно обойти его элементы и добавить
-		// в результат
-		ИсторияСтатусовСписокXdto = СодержимоеОтвета["outboundStatusHistory"];
+	ИначеЕсли ТипЗапроса = "getOutboundStatusHistory" Тогда // api v1
+		ОтветXdto["outboundStatusHistories"] = СодержимоеОтвета;
 	
-		Для каждого ЭлементИсторииСтатусов Из ИсторияСтатусовСписокXdto Цикл
-			ОтветXdto["outboundStatusHistory"].Добавить(ЭлементИсторииСтатусов);
-
-		КонецЦикла;
+	ИначеЕсли ТипЗапроса = "getOutboundHistory" Тогда // api v2
+		ОтветXdto["outboundStatusHistory"] = СодержимоеОтвета;
 		
 	ИначеЕсли ТипЗапроса = "getOutbound" Тогда
 		// в СодержимоеОтвета для данного запроса вернётся структура с двумя объектами XDTO
