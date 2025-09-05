@@ -83,7 +83,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v1/inbounds</Template>
+					<Template>/api/putInbound</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="edececd5-a4c1-49ce-8789-ea013358ea29">
@@ -112,7 +112,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Создать или обновить реестр приемки</Comment>
-					<Template>/api/inbounds/registries</Template>
+					<Template>/api/putInboundRegistry</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="1aaa41b8-b09d-4d1f-8d09-8bd48235fa16">
@@ -141,7 +141,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v1/inbounds/statuses</Template>
+					<Template>/api/getInboundStatus</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="b2cb5d19-f32f-498b-a88a-38ad5aac41c2">
@@ -170,7 +170,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v2/inbounds/statuses</Template>
+					<Template>/api/getInboundsStatus</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="f4bba73c-89d8-429e-bbd5-2c89b4a1c2c7">
@@ -199,7 +199,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v1/inbounds/statuses/history</Template>
+					<Template>/api/getInboundStatusHistory</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="93e13851-d55c-4010-aaac-0cd4a459984a">
@@ -228,7 +228,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v2/inbounds/statuses/history</Template>
+					<Template>/api/getInboundHistory</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="4d73d2c4-35ac-4b6c-84a2-5683c21a4ae3">
@@ -257,7 +257,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment>Запрос позволяет Маркету получить стоки по товарам</Comment>
-					<Template>/api/v1/stocks</Template>
+					<Template>/api/getStocks</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="d2f55553-4aa8-4a41-8a49-959f42b747df">
@@ -286,7 +286,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/inbounds/details</Template>
+					<Template>/api/getInbound</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="1355ea50-f428-4c2b-a659-1bc9c13979ea">
@@ -315,7 +315,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v1/outbounds</Template>
+					<Template>/api/putOutbound</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="7faaf3a5-f000-4ae7-9140-7f0f544db5a3">
@@ -344,7 +344,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/outbounds/registries</Template>
+					<Template>/api/putOutboundRegistry</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="c56a3ebe-7564-45e0-97d0-afb663a21bd9">
@@ -373,7 +373,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v1/outbounds/statuses</Template>
+					<Template>/api/getOutboundStatus</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="876a00ce-77a9-47e3-bccd-ff43c7752aa8">
@@ -402,7 +402,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v2/outbounds/statuses</Template>
+					<Template>/api/getOutboundsStatus</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="0245ff07-017f-4f03-874e-98ae19a6ecea">
@@ -431,7 +431,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v1/outbounds/statuses/history</Template>
+					<Template>/api/getOutboundStatusHistory</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="efb9a56b-9c89-40d4-bb1b-cd723b56d591">
@@ -460,7 +460,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v2/outbounds/statuses/history</Template>
+					<Template>/api/getOutboundHistory</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="5d0dd4a5-033a-4da1-8bbb-4b557fa86005">
@@ -489,7 +489,7 @@
 						</v8:item>
 					</Synonym>
 					<Comment/>
-					<Template>/api/v1/outbounds/details</Template>
+					<Template>/api/getOutbound</Template>
 				</Properties>
 				<ChildObjects>
 					<Method uuid="55b03476-29f2-4302-ae06-674ff1951f83">

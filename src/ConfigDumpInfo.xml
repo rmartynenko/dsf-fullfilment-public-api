@@ -96,7 +96,7 @@
 		<Metadata name="CommonModule.дсфФормированиеОтветовЯндексМаркет.Module" id="edac7c40-1c01-475c-a07b-541dd5d2fc59.0" configVersion="96bf1421e1d41cb707ec574a029b0692446b9fe3"/>
 		<Metadata name="CommonPicture.дсфApi64" id="65fca305-4e40-4b03-90c2-e7e4dd163d83" configVersion="44a0820829316028f0abbda7a5434b9ee0166261"/>
 		<Metadata name="CommonPicture.дсфApi64.Picture" id="65fca305-4e40-4b03-90c2-e7e4dd163d83.0" configVersion="4b2cba16489abfdca2de28361b97441b97f14eb7"/>
-		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="517441cdb0cb54b1577f53bdb7de5d6d2c638cd8"/>
+		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="6ff451c0d3a8b0b6487c30c47e003c1ecee76e21"/>
 		<Metadata name="Constant.аргмСрокХраненияВходящихЗапросовА1" id="39160d0a-fddf-4295-8a5e-c4f7d8f2b610" configVersion="b769ecf427116aba0b2e1008baf6c9eeb454c05b"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияКоробов" id="ce1dbf4f-c82d-4d85-bb8b-f431c60817b9" configVersion="3009413a62cd81a3aeead21a1db732dd469ff461"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияШтук" id="475b2f8e-7814-4079-85a8-bc3e9addc8de" configVersion="e67110bccb415d3b509d3ba6a167d243b331610c"/>
@@ -229,7 +229,7 @@
 			<Metadata name="HTTPService.дсфFulfillmentPublicApi.URLTemplate.Goods.Method.POST" id="e9846e3b-eb3a-4d44-b404-03bf44602975"/>
 		</Metadata>
 		<Metadata name="HTTPService.дсфFulfillmentPublicApi.Module" id="1cd1df3d-cc0e-4cf5-b619-864d456a6abc.0" configVersion="bc6a52e068997dc13791b028eafd69058c4496dd"/>
-		<Metadata name="HTTPService.дсфFulfillmentYandexMarket" id="83b9eea9-bae8-4e00-ac8f-c5df696e74af" configVersion="a180d59b69303375aeac1c536837b9578dfe14fd">
+		<Metadata name="HTTPService.дсфFulfillmentYandexMarket" id="83b9eea9-bae8-4e00-ac8f-c5df696e74af" configVersion="e46811feff0aa59eaa86387f61e2dc10df16157d">
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getOutboundsStatus.Method.POST" id="0245ff07-017f-4f03-874e-98ae19a6ecea"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getInboundsStatus" id="0fbf1883-82ce-49d3-981c-04a76fbcc444"/>
 			<Metadata name="HTTPService.дсфFulfillmentYandexMarket.URLTemplate.getInbound.Method.POST" id="1355ea50-f428-4c2b-a659-1bc9c13979ea"/>
