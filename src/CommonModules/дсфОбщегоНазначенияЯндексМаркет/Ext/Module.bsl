@@ -54,7 +54,7 @@
 	
 	Результат = СтрЗаменить(Результат,
 							"<root>",
-							"<root xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">");
+							"<root xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:xsd=""http://www.w3.org/2001/XMLSchema"">");
 	
 	Возврат Результат;
 	
