@@ -43,7 +43,7 @@
 		<Metadata name="CommonModule.аргмПравилаОбработкиВходящихЗапросовА1ПовтИсп" id="3f8686cc-5324-4baa-825d-3ba13f0466b4" configVersion="a0897b9fa7b8b201f785964e64036d660a62efb8"/>
 		<Metadata name="CommonModule.аргмПравилаОбработкиВходящихЗапросовА1ПовтИсп.Module" id="3f8686cc-5324-4baa-825d-3ba13f0466b4.0" configVersion="7d074bb1f147efedcc8111ce9fdc38b6bf31bb36"/>
 		<Metadata name="CommonModule.дсфВходящиеЗапросыЯндексМаркет" id="95de8225-13c2-4984-b1a2-341c48b125d9" configVersion="1d931b9f5197b2ec6b14bc09c5c4fcdef9b67692"/>
-		<Metadata name="CommonModule.дсфВходящиеЗапросыЯндексМаркет.Module" id="95de8225-13c2-4984-b1a2-341c48b125d9.0" configVersion="0890966947dc62dc26f78a6fe755677dde8ccd20"/>
+		<Metadata name="CommonModule.дсфВходящиеЗапросыЯндексМаркет.Module" id="95de8225-13c2-4984-b1a2-341c48b125d9.0" configVersion="00af3a9cbd12b3ff14f34f92cd1f2f7acafda68a"/>
 		<Metadata name="CommonModule.дсфДокументыАпи" id="1b5231f1-08a0-4adc-82d1-b8aede714861" configVersion="6e70639e2b835f3a36c00c6d90873c4b35051d54"/>
 		<Metadata name="CommonModule.дсфДокументыАпи.Module" id="1b5231f1-08a0-4adc-82d1-b8aede714861.0" configVersion="c46a9fa4a433d8d1578a232795a7cedae67a1c36"/>
 		<Metadata name="CommonModule.дсфЗащищенныеФункцииВызовСервера" id="3e925f89-96d9-4251-adfc-0fa6f11aa65d" configVersion="b9a79e590ed7418ebb1f204ac38c6ddcb2078101"/>
@@ -57,7 +57,7 @@
 		<Metadata name="CommonModule.дсфНормативноСправочнаяИнформацияАпи" id="8e86e0b8-e84a-48b4-90c5-37c203d16201" configVersion="c0c813e01d1764b7590176dad558cc3277c94da9"/>
 		<Metadata name="CommonModule.дсфНормативноСправочнаяИнформацияАпи.Module" id="8e86e0b8-e84a-48b4-90c5-37c203d16201.0" configVersion="7eac8920bae414699614ebe426895cddc51cb5df"/>
 		<Metadata name="CommonModule.дсфОбменДаннымиXDTOЯндексМаркет" id="ecafde55-08c7-4026-a606-4214658e6379" configVersion="fa905e7ac3c6aaba97fceb692e47f91380e1a00e"/>
-		<Metadata name="CommonModule.дсфОбменДаннымиXDTOЯндексМаркет.Module" id="ecafde55-08c7-4026-a606-4214658e6379.0" configVersion="8bffa3edfe6ced7d9e72978a16b6a73bb853f56d"/>
+		<Metadata name="CommonModule.дсфОбменДаннымиXDTOЯндексМаркет.Module" id="ecafde55-08c7-4026-a606-4214658e6379.0" configVersion="389a00a1d2c010e373718334f07a3cd94f053933"/>
 		<Metadata name="CommonModule.дсфОбменДаннымиСлужебный" id="8de2a595-da0d-42bb-904d-6621e253d70e" configVersion="b13dc4f3d012eadd9bb2adba1340c0f65bacc309"/>
 		<Metadata name="CommonModule.дсфОбменДаннымиСлужебный.Module" id="8de2a595-da0d-42bb-904d-6621e253d70e.0" configVersion="82f2314dcc68dbbe13657ea41c14b52a48f3b5e7"/>
 		<Metadata name="CommonModule.дсфОбработкаВходящихЗапросовАпи" id="280a5906-818e-40ec-a68b-c796b49220a6" configVersion="ae512bdf7c0ad37fa25492d82298fdac5bf13367"/>
@@ -96,7 +96,7 @@
 		<Metadata name="CommonModule.дсфФормированиеОтветовЯндексМаркет.Module" id="edac7c40-1c01-475c-a07b-541dd5d2fc59.0" configVersion="841a2df6ee9876e7649a5974dc7afd5cdfaebfc4"/>
 		<Metadata name="CommonPicture.дсфApi64" id="65fca305-4e40-4b03-90c2-e7e4dd163d83" configVersion="44a0820829316028f0abbda7a5434b9ee0166261"/>
 		<Metadata name="CommonPicture.дсфApi64.Picture" id="65fca305-4e40-4b03-90c2-e7e4dd163d83.0" configVersion="4b2cba16489abfdca2de28361b97441b97f14eb7"/>
-		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="8bb5c2480f091e6667742746019968f7e910c37d"/>
+		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="704b428bff836dc10f97abc2b3b0d8e355d9d166"/>
 		<Metadata name="Constant.аргмСрокХраненияВходящихЗапросовА1" id="39160d0a-fddf-4295-8a5e-c4f7d8f2b610" configVersion="b769ecf427116aba0b2e1008baf6c9eeb454c05b"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияКоробов" id="ce1dbf4f-c82d-4d85-bb8b-f431c60817b9" configVersion="3009413a62cd81a3aeead21a1db732dd469ff461"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияШтук" id="475b2f8e-7814-4079-85a8-bc3e9addc8de" configVersion="e67110bccb415d3b509d3ba6a167d243b331610c"/>
