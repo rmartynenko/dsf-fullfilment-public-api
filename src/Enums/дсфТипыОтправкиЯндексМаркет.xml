@@ -130,6 +130,30 @@
 					<Comment>Товары отправляются с одного склада Маркета на другой (перемещение товаров, не связанное с заказом на Маркете).</Comment>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="9334101e-b4e5-476e-9098-cd24f131b44c">
+				<Properties>
+					<Name>ОбычноеИзъятие</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>11 - Обычное изъятие, отгрузка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d1d02628-08d0-4f9f-b66a-8179bbeb12bc">
+				<Properties>
+					<Name>Отгрузка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>28 - Отгрузка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

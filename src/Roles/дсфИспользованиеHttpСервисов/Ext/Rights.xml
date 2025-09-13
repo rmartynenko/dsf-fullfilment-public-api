@@ -1,8 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.20">
-	<setForNewObjects>false</setForNewObjects>
+	<setForNewObjects>true</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
+	<object>
+		<name>Subsystem.дсфФулфилментСлужебная</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
 	<object>
 		<name>Catalog.АдресаДоставки</name>
 		<right>
@@ -23,38 +30,89 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.дсфЗаявкаНаОтгрузку</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UndoPosting</name>
-			<value>true</value>
-		</right>
+		<name>Subsystem.дсфФулфилмент</name>
 		<right>
 			<name>View</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.дсфЗаявкаНаОтгрузку</name>
+		<right>
+			<name>Delete</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
+			<name>InteractiveDelete</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
-			<value>true</value>
+			<name>InteractiveSetDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveUndoPosting</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveChangeOfPosted</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -97,6 +155,13 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.дсфFulfillmentPublicApi.URLTemplate.Health.Method.GET</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.НастройкиОстаточногоСрокаГодности</name>
 		<right>
 			<name>Read</name>
@@ -106,8 +171,44 @@
 	<object>
 		<name>Constant.дсфОсновнойПроцессПоступления</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -139,10 +240,53 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментОбщийАпи</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.аргмСрокХраненияВходящихЗапросовА1</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -160,10 +304,24 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.дсфФулфилмент.Subsystem.дсфФулфилментЯндексМаркет</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.УпаковкиНоменклатуры</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.дсфЯндексМаркетСлужебная</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -183,8 +341,44 @@
 	<object>
 		<name>Constant.дсфЕдиницаИзмеренияШтук</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -244,8 +438,44 @@
 	<object>
 		<name>Constant.дсфТипМестаХраненияДляКоробов</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -272,29 +502,213 @@
 	<object>
 		<name>InformationRegister.дсфНастройкиДоступаКАпи</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Constant.дсфОсновнойПроцессОтгрузки</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.дсфFulfillmentPublicApi.URLTemplate.PartnerChanges.Method.PUT</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Document.дсфЗаявкаНаПриемку</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Insert</name>
+			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>HTTPService.дсфFulfillmentYandexMarket.URLTemplate.Health.Method.GET</name>
 		<right>
-			<name>Use</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveUndoPosting</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InteractiveChangeOfPosted</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -321,12 +735,52 @@
 	<object>
 		<name>InformationRegister.дсфВерсииРеестровПриемкиЯндексМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -346,8 +800,56 @@
 	<object>
 		<name>InformationRegister.дсфСоответствиеСостоянийОбъектовХраненияКодамЯндексМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -367,39 +869,87 @@
 	<object>
 		<name>InformationRegister.дсфЗаявкаНаОтгрузкуСвязанныеОбъектыЯМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>TotalsControl</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
+			<name>ReadDataHistory</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
-			<value>true</value>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.дсфВерсииРеестровОтгрузкиЯндексМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>TotalsControl</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
+			<name>ReadDataHistory</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>View</name>
-			<value>true</value>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Edit</name>
-			<value>true</value>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -437,8 +987,44 @@
 	<object>
 		<name>Constant.дсфТипМестаХраненияДляПалет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -451,15 +1037,99 @@
 	<object>
 		<name>InformationRegister.дсфЗаявкаНаПриемкуСвязанныеОбъектыЯМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Constant.дсфОсновнойИдентификаторПоставщикаЯндексМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -476,8 +1146,56 @@
 	<object>
 		<name>InformationRegister.аргмЖурналВходящихHttpЗапросовА1</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -509,14 +1227,61 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.дсфFulfillmentPublicApi.URLTemplate.OutboundOrders.Method.POST</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.дсфИдентификаторыЯндексМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>View</name>
+			<value>false</value>
 		</right>
 		<right>
-			<name>Update</name>
-			<value>true</value>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -527,10 +1292,28 @@
 		</right>
 	</object>
 	<object>
-		<name>HTTPService.дсфFulfillmentYandexMarket.URLTemplate.SendData.Method.POST</name>
+		<name>HTTPService.дсфFulfillmentPublicApi.URLTemplate.Partners.Method.POST</name>
 		<right>
 			<name>Use</name>
-			<value>true</value>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.дсфПанельАдминистрирования.Command.РазделНастройкиВзаимодействия</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.дсфПанельАдминистрирования</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -542,6 +1325,13 @@
 		<right>
 			<name>Update</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.дсфFulfillmentPublicApi.URLTemplate.InboundOrders.Method.POST</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -575,15 +1365,99 @@
 	<object>
 		<name>InformationRegister.дсфСоответствиеВидовОбъектовХраненияТипамТоваровЯМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
 		<name>Constant.дсфЕдиницаИзмеренияКоробов</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -630,10 +1504,53 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.аргмСлужебнаяА1</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.дсфОсновнойПоклажедательЯндексМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -644,10 +1561,53 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.дсфFulfillmentPublicApi.URLTemplate.Goods.Method.POST</name>
+		<right>
+			<name>Use</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.дсфИдентификаторСкладаЯндексМаркет</name>
 		<right>
-			<name>Read</name>
-			<value>true</value>
+			<name>Update</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>

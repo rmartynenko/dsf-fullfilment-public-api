@@ -62,7 +62,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.дсфОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ТОО "ArgumentOne"</Vendor>
-			<Version>1.0.1.25</Version>
+			<Version>1.0.1.37</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -153,6 +153,8 @@
 			<Catalog>ТорговыеМарки</Catalog>
 			<Catalog>Упаковки</Catalog>
 			<Catalog>УпаковкиНоменклатуры</Catalog>
+			<Catalog>ЗоныСклада</Catalog>
+			<Catalog>ТипыОпераций</Catalog>
 			<Document>дсфЗаявкаНаОтгрузку</Document>
 			<Document>дсфЗаявкаНаПриемку</Document>
 			<Document>ЗаказНаОтгрузку</Document>
