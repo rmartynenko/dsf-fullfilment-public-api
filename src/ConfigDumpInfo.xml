@@ -16,11 +16,12 @@
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="0e872427-ccd6-4cfe-9971-bff970033ffb" configVersion="befef98f6cd8f90a29a708e5e3043d19a2492210"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="0e872427-ccd6-4cfe-9971-bff970033ffb.0" configVersion="ee40502dd4fb3a7d6a0a8660d772ea79e8ed4117"/>
 		<Metadata name="Catalog.Номенклатура.ManagerModule" id="2981759c-43fc-4c4e-8ca0-d5854220c977.3" configVersion="0d31599ee3b1cef710a29c0c96d5849f90706f13"/>
-		<Metadata name="Catalog.ОбъектыХранения" id="cf315db1-4d2a-4fc3-99b3-d1bad903a9ce" configVersion="042bcc8921ae9c3641e073072b580f30ede19dd0">
+		<Metadata name="Catalog.ОбъектыХранения" id="cf315db1-4d2a-4fc3-99b3-d1bad903a9ce" configVersion="25d913ac9a65fdbf9c0edcba1a5f99362218f1eb">
 			<Metadata name="Catalog.ОбъектыХранения.Attribute.дсфАртикулПолный" id="52ff3a23-46c7-4364-b8c4-f33d83f56ab7"/>
 		</Metadata>
 		<Metadata name="Catalog.ОбъектыХранения.Form.ФормаЭлемента" id="7bc1f7f2-6980-45a4-8018-64bad316103f" configVersion="73c2aaaf86a37fc6965ad374d213a49bdcb78c36"/>
 		<Metadata name="Catalog.ОбъектыХранения.Form.ФормаЭлемента.Form" id="7bc1f7f2-6980-45a4-8018-64bad316103f.0" configVersion="e74f9099fe5e8640d66741da50083c68c6097f44"/>
+		<Metadata name="Catalog.ОбъектыХранения.ObjectModule" id="cf315db1-4d2a-4fc3-99b3-d1bad903a9ce.0" configVersion="71d695c9f8f6ad0e0b8e9b97d7349d61b0034a95"/>
 		<Metadata name="Catalog.Партии" id="d8c56c5f-230d-46f5-8289-d8e7ad26285f" configVersion="7f208d1e8feeaa07b931fb7816fd69d43796c874"/>
 		<Metadata name="Catalog.ПартииНоменклатуры" id="27a5d4f3-272a-42c8-8db1-10e63a1bd32a" configVersion="7e90bf2e821b830e69e0b1ecec44e8a945b9666b"/>
 		<Metadata name="Catalog.Пользователи" id="596a72b7-4f4b-40d8-ae42-3b79262e8832" configVersion="24adf5eeee2ae3b340a6bd9451ee25cd23044fb9"/>
@@ -98,7 +99,7 @@
 		<Metadata name="CommonModule.дсфСозданиеИзменениеДанныхАпи" id="3af50c9c-c0e2-424c-8a51-ab7614d7b759" configVersion="72ad1b41019e296c472250dbf2c9ac301af66a58"/>
 		<Metadata name="CommonModule.дсфСозданиеИзменениеДанныхАпи.Module" id="3af50c9c-c0e2-424c-8a51-ab7614d7b759.0" configVersion="c61946ecf564e47d4a0f736c60af280d12543df7"/>
 		<Metadata name="CommonModule.дсфСозданиеОбновлениеДанныхЯндексМаркет" id="ba2ab674-f0cf-48f8-a20a-664114f4f77f" configVersion="d3418390c3d8623e1c8e055e053797c9f2386d84"/>
-		<Metadata name="CommonModule.дсфСозданиеОбновлениеДанныхЯндексМаркет.Module" id="ba2ab674-f0cf-48f8-a20a-664114f4f77f.0" configVersion="98b40c862123fe191d4568c8e656ef4225c718ed"/>
+		<Metadata name="CommonModule.дсфСозданиеОбновлениеДанныхЯндексМаркет.Module" id="ba2ab674-f0cf-48f8-a20a-664114f4f77f.0" configVersion="0c6451b9ee0703ce0367a4daaa14cec113b04ebf"/>
 		<Metadata name="CommonModule.дсфСтатусыДокументовЯндексМаркет" id="81bd869f-f091-49e9-8ab2-b04ed3d671df" configVersion="8b54e9cbaf8520ad458c80b8d2a551cc9f737789"/>
 		<Metadata name="CommonModule.дсфСтатусыДокументовЯндексМаркет.Module" id="81bd869f-f091-49e9-8ab2-b04ed3d671df.0" configVersion="80b6bae9a42a376fb972df49319ce88f86fcfdbb"/>
 		<Metadata name="CommonModule.дсфСтатусыДокументовЯндексМаркетПовтИсп" id="b431d238-4000-4b89-b338-518e7ed6a5d9" configVersion="76f9d8008683414a0f52943aa4e599bf15e1d08c"/>
@@ -107,7 +108,7 @@
 		<Metadata name="CommonModule.дсфФормированиеОтветовЯндексМаркет.Module" id="edac7c40-1c01-475c-a07b-541dd5d2fc59.0" configVersion="841a2df6ee9876e7649a5974dc7afd5cdfaebfc4"/>
 		<Metadata name="CommonPicture.дсфApi64" id="65fca305-4e40-4b03-90c2-e7e4dd163d83" configVersion="44a0820829316028f0abbda7a5434b9ee0166261"/>
 		<Metadata name="CommonPicture.дсфApi64.Picture" id="65fca305-4e40-4b03-90c2-e7e4dd163d83.0" configVersion="4b2cba16489abfdca2de28361b97441b97f14eb7"/>
-		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="3d7652dce5746fee10094f57cdba7ff3bc630441"/>
+		<Metadata name="Configuration.DSF_AxelotWmsX5_Fulfillment" id="5482a3d5-523d-450b-b40d-f8a46ff7d495" configVersion="6823be5bf7741a79262fbb903cbbdfdc3bf0c8cb"/>
 		<Metadata name="Constant.аргмСрокХраненияВходящихЗапросовА1" id="39160d0a-fddf-4295-8a5e-c4f7d8f2b610" configVersion="b769ecf427116aba0b2e1008baf6c9eeb454c05b"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияКоробов" id="ce1dbf4f-c82d-4d85-bb8b-f431c60817b9" configVersion="3009413a62cd81a3aeead21a1db732dd469ff461"/>
 		<Metadata name="Constant.дсфЕдиницаИзмеренияШтук" id="475b2f8e-7814-4079-85a8-bc3e9addc8de" configVersion="e67110bccb415d3b509d3ba6a167d243b331610c"/>
